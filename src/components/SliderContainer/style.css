@@ -1,0 +1,17 @@
+.slider-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  padding: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.slider-container .elipse-instance {
+  min-width: 24px !important;
+  width: unset !important;
+}
+
+.slider-container .elipse-2 {
+  background-color: #8e8e8e !important;
+}

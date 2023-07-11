@@ -1,0 +1,38 @@
+.table-card {
+    align-items: center;
+    background-color: #f9fbfc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 24px 12px;
+    position: relative;
+    width: fit-content;
+}
+
+.table-card .title {
+    color: #08385c;
+    font-family: "Noto Serif Georgian", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 33.6px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.table-card .subtitle {
+    color: #08385c;
+    font-family: "Noto Serif Georgian", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}

@@ -1,0 +1,15 @@
+.elipse {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.elipse .div {
+  background-color: #d9d9d9;
+  border-radius: 6px;
+  height: 12px;
+  left: 6px;
+  position: relative;
+  top: 6px;
+  width: 12px;
+}

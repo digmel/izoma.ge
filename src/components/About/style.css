@@ -1,0 +1,34 @@
+.about {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 48px 300px;
+}
+
+.about .title {
+  color: #08385c;
+  font-family: "Noto Serif Georgian", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44.8px;
+}
+
+.about .description {
+  color: #08385c;
+  font-family: "Noto Serif Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.about .button-3 {
+  font-size: 16px !important;
+  line-height: normal !important;
+  white-space: unset !important;
+}

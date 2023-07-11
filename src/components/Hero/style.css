@@ -1,0 +1,55 @@
+.section-hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 64px;
+}
+
+.section-hero .image-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-around;
+}
+
+.section-hero .image {
+  align-self: stretch;
+  flex: 1;
+  min-width: 390px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-hero .slider-icons {
+  align-items: center !important;
+  align-self: stretch !important;
+  justify-content: center !important;
+  margin-top: -24px !important;
+  padding: unset !important;
+  width: unset !important;
+}
+
+.section-hero .slider-container-instance {
+  height: 18px !important;
+  min-width: 18px !important;
+  width: unset !important;
+}
+
+.section-hero .design-component-instance-node {
+  background-color: #8e8e8e !important;
+  border-radius: 4.5px !important;
+  height: 9px !important;
+  left: 4px !important;
+  top: 4px !important;
+  width: 9px !important;
+}
+
+.section-hero .slider-icons-2 {
+  border-radius: 4.5px !important;
+  height: 9px !important;
+  left: 4px !important;
+  top: 4px !important;
+  width: 9px !important;
+}

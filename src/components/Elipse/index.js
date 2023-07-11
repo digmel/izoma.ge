@@ -1,0 +1,1 @@
+export { Elipse } from "./Elipse";
