@@ -1,4 +1,4 @@
-# mtielitsignebi.ge
+# izoma.ge
 
 ## Setup
 
