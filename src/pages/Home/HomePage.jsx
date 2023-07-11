@@ -21,10 +21,6 @@ export const HomePage = () => {
   return (
     <div className="Wrapper">
       <Header />
-      <Hero />
-      <About />
-      <Statistics />
-      <Blog />
       <Footer />
     </div>
   );
