@@ -1,34 +1,165 @@
 .about {
-  display: flex;
-  flex: 1;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 96px 120px;
+  gap: 96px
+}
+
+.about .description-5 {
+  align-items: flex-start;
+  display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: center;
-  padding: 48px 300px;
+  position: relative;
+  width: 500px;
 }
 
-.about .title {
-  color: #08385c;
-  font-family: "Noto Serif Georgian", Helvetica;
-  font-size: 24px;
+.about .text-wrapper-5 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 32px;
   font-weight: 600;
   letter-spacing: 0;
   line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
 
-.about .description {
-  color: #08385c;
-  font-family: "Noto Serif Georgian", Helvetica;
+.about .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 184px;
+  width: 500px;
+}
+
+.about .text {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
   font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: relative;
+  width: 500px;
+}
+
+.about .span {
+  color: #1f2937;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 22.4px;
+}
+
+.about .work-hours {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 4px;
+  position: relative;
+}
+
+.about .clock-icon {
+  height: 20px !important;
+  min-width: 20px !important;
+  position: relative !important;
+}
+
+.about .text-wrapper-6 {
+  color: var(--gray-500);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
 
-.about .button-3 {
-  font-size: 16px !important;
-  line-height: normal !important;
-  white-space: unset !important;
+.about .group {
+  height: 490px;
+  min-width: 476px;
+  position: relative;
+}
+
+.about .rectangle-wrapper {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/rectangle-5197-2@2x.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 296px;
+  position: absolute;
+  top: 37px;
+  width: 180px;
+}
+
+.about .rectangle-50 {
+  height: 200px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.about .rectangle-51 {
+  height: 237px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 280px;
+}
+
+.about .rectangle-52 {
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 253px;
+  width: 180px;
+}
+
+.about .rectangle-53 {
+  height: 237px;
+  left: 196px;
+  object-fit: cover;
+  position: absolute;
+  top: 253px;
+  width: 280px;
+}
+
+.about .FAQ {
+  align-items: center;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 0;
+  padding: 128px 120px;
+  position: absolute;
+  top: 2302px;
+  width: 1280px;
+}
+
+.about .text-wrapper-7 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
 }
