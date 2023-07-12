@@ -27,7 +27,7 @@ export const HomePage = () => {
       {!isMob && <About />}
       {!isMob && <FAQSection />}
 
-      {!isMob && <IsmobFalseWrapper isMob={isMob} />}
+      <IsmobFalseWrapper isMob={isMob} />
       <ContactSection isMob={isMob} />
       <Footer isMob={isMob} />
     </div>

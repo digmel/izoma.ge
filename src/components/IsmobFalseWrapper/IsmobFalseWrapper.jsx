@@ -22,11 +22,7 @@ export const IsmobFalseWrapper = ({ isMob }) => {
         }
       />
       <BlogSection
-        articleArticleClassName={`${isMob ? "class-10" : "class-11"}`}
-        articleArticleClassNameOverride={`${!isMob && "class"}`}
-        articleDescriptionClassName={`${isMob ? "class-6" : "class-7"}`}
-        articleDivClassName={`${!isMob && "class"}`}
-        articleDivClassNameOverride={`${!isMob && "class"}`}
+        isMob={isMob}
         articleImage={
           isMob
             ? "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/image-16@2x.png"

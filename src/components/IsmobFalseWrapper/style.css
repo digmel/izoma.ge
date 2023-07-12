@@ -57,8 +57,9 @@
 }
 
 .ismob-false-wrapper .class-8 {
-  margin-right: -1050px !important;
-  padding: unset !important;
+  padding: 0px !important;
+  width: 370px;
+
 }
 
 .ismob-false-wrapper .class-9 {

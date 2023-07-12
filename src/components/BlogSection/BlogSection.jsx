@@ -9,6 +9,7 @@ import { Article } from "../Article";
 import "./style.css";
 
 export const BlogSection = ({
+  isMob,
   className,
   titleClassName,
   articleListClassName,
@@ -41,30 +42,34 @@ export const BlogSection = ({
           text1="ივნისი 24, 2023"
           titleClassName="article-instance"
         />
-        <Article
-          className={articleArticleClassNameOverride}
-          image={articleImg}
-          imageClassName={articleImageClassNameOverride}
-          text="როდის არის საჭირო ნაკვეთის აზომვა და ნახაზის მომზადება?"
-          text1="ივნისი 10, 2023"
-          titleClassName="article-instance"
-        />
-        <Article
-          className={articleDivClassName}
-          image={articleImage1}
-          imageClassName={articleImgClassName}
-          text="რა არის გასათვალისწინებელი ბინის აზომვისას?"
-          text1="მარტი 11, 2023"
-          titleClassName="article-instance"
-        />
-        <Article
-          className={articleDivClassName}
-          image={articleImage1}
-          imageClassName={articleImgClassName}
-          text="რა არის გასათვალისწინებელი ბინის აზომვისას?"
-          text1="მარტი 11, 2023"
-          titleClassName="article-instance"
-        />
+        {!isMob && (
+          <>
+            <Article
+              className={articleArticleClassNameOverride}
+              image={articleImg}
+              imageClassName={articleImageClassNameOverride}
+              text="როდის არის საჭირო ნაკვეთის აზომვა და ნახაზის მომზადება?"
+              text1="ივნისი 10, 2023"
+              titleClassName="article-instance"
+            />
+            <Article
+              className={articleDivClassName}
+              image={articleImage1}
+              imageClassName={articleImgClassName}
+              text="რა არის გასათვალისწინებელი ბინის აზომვისას?"
+              text1="მარტი 11, 2023"
+              titleClassName="article-instance"
+            />
+            <Article
+              className={articleDivClassName}
+              image={articleImage1}
+              imageClassName={articleImgClassName}
+              text="რა არის გასათვალისწინებელი ბინის აზომვისას?"
+              text1="მარტი 11, 2023"
+              titleClassName="article-instance"
+            />
+          </>
+        )}
       </div>
     </div>
   );
