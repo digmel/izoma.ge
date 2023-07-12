@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Statistics } from "../Statistics";
 import "./style.css";
+import { motion } from "framer-motion";
 
 export const HeroSection = ({
   isMob,
@@ -12,11 +13,28 @@ export const HeroSection = ({
     <div className={`hero-section is-mob-${isMob}`}>
       {!isMob && (
         <>
-          <img
-            className="image"
-            alt="Image"
-            src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/image-7.png"
-          />
+          <div className="image">
+            <motion.div
+              initial={{ scale: 1 }} // Initial scale (zoomed out)
+              animate={{ scale: 1.2 }} // Final scale (zoomed in)
+              transition={{
+                duration: 10, // Duration of the animation in seconds
+                ease: "easeInOut", // Easing function for smooth animation
+              }}
+              style={{
+                height: "800px",
+                width: "100%",
+                backgroundImage:
+                  "url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/image-7.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                willChange: "transform",
+                objectFit: "cover",
+                position: "relative",
+              }}
+            />
+          </div>
+
           <div className="hero-desciption">
             <div className="hero-text">
               <p className="p">

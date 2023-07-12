@@ -1,13 +1,17 @@
 .hero-section {
   position: relative;
+  margin-left: -160px;
+  margin-right: -160px;
+  padding-bottom: 96px;
 }
 
 .hero-section .image {
   height: 800px;
   min-width: 1280px;
-  object-fit: cover;
-  position: relative;
-  padding-bottom: 64px;
+  width: 100%;
+  display: "flex";
+  flex: 1;
+  justify-content: "center";
 }
 
 .hero-section .hero-desciption {
