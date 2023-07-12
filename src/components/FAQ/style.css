@@ -1,0 +1,229 @@
+.wrapper {
+  align-self: stretch;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px #0000001a;
+  height: 879px;
+  min-width: 1040px;
+  margin: 220px auto;
+}
+
+.faq {
+  align-self: stretch;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px #0000001a;
+  height: 879px;
+  min-width: 1040px;
+  margin-bottom: 32px;
+}
+
+.faq .overlap-group-3 {
+  height: 881px;
+  left: -2px;
+  position: relative;
+  width: 1044px;
+}
+
+.text-wrapper-7 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  white-space: nowrap;
+  padding-bottom: 36px;
+  width: 100%;
+}
+
+.faq .question {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  gap: 48px;
+  left: 2px;
+  padding: 40px 56px;
+  position: absolute;
+  top: 0;
+  width: 1040px;
+}
+
+.faq .number {
+  color: var(--gray-500);
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 50.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.faq .content-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  padding: 3px 0px 0px;
+}
+
+.faq .header-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.faq .block-title-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.faq .block-title {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 788px;
+}
+
+.faq .flex-container-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 760px;
+}
+
+.faq .flex-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 488px;
+  width: 760px;
+}
+
+.faq .span-wrapper {
+  color: var(--gray-600);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  width: 760px;
+}
+
+.faq .text-wrapper-8 {
+  color: #4b5563;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: normal;
+}
+
+.faq .text-2 {
+  color: var(--gray-600);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: 760px;
+}
+
+.faq .question-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-color: var(--gray-200);
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  gap: 48px;
+  left: 0;
+  padding: 40px 56px;
+  position: absolute;
+  top: 617px;
+  width: 1044px;
+}
+
+.faq .header-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.faq .block-title-2 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  width: 799px;
+}
+
+.faq .chevron-icon-bg-instance {
+  transform: rotate(-90deg) !important;
+}
+
+.faq .chevronicon-3 {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+  transform: rotate(90deg) !important;
+}
+
+.faq .question-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-color: var(--gray-200);
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  gap: 48px;
+  left: 0;
+  padding: 40px 56px;
+  position: absolute;
+  top: 747px;
+  width: 1044px;
+}
+
+.faq .header-4 {
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.faq .block-title-3 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  width: 798px;
+}
