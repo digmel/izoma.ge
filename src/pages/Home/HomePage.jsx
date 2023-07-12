@@ -24,7 +24,7 @@ export const HomePage = () => {
       <HeroSection isMob={isMob} />
       <ServicesSection isMob={isMob} />
 
-      {!isMob && <About />}
+      <About isMob={isMob} />
       {!isMob && <FAQSection />}
 
       <IsmobFalseWrapper isMob={isMob} />

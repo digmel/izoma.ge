@@ -163,3 +163,153 @@
   white-space: nowrap;
   width: fit-content;
 }
+
+.about-section-wrapper {
+  height: 862px;
+  margin-top: 64px;
+}
+
+
+.about-section .about-section {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  left: 0;
+  padding: 48px 24px;
+  position: fixed;
+  top: 0;
+  width: 390px;
+  margin-top: 164px;
+}
+
+.about-section .group {
+  height: 352px;
+  min-width: 342px;
+  position: relative;
+}
+
+.about-section .overlap-group {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/fb4df792853a0609f29c896511e51542/img/rectangle-5197-1@2x.png);
+  background-size: 100% 100%;
+  height: 144px;
+  left: 213px;
+  position: absolute;
+  top: 27px;
+  width: 129px;
+}
+
+.about-section .rectangle {
+  height: 144px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 129px;
+}
+
+.about-section .img {
+  height: 170px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 201px;
+}
+
+.about-section .rectangle-2 {
+  height: 144px;
+  left: 0;
+  position: absolute;
+  top: 182px;
+  width: 129px;
+}
+
+.about-section .rectangle-3 {
+  height: 170px;
+  left: 141px;
+  object-fit: cover;
+  position: absolute;
+  top: 182px;
+  width: 201px;
+}
+
+.about-section .description {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.about-section .text-wrapper {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: 32px;
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.about-section .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 228px;
+  width: 342px;
+}
+
+.about-section .text {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  position: relative;
+  width: 342px;
+}
+
+.about-section .span {
+  color: #1f2937;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19.6px;
+}
+
+.about-section .work-hours {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 4px;
+  position: relative;
+}
+
+.about-section .clock-icon {
+  height: 20px !important;
+  min-width: 20px !important;
+  position: relative !important;
+}
+
+.about-section .p {
+  color: var(--gray-500);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
