@@ -15,15 +15,14 @@ export const HeroSection = ({
         <>
           <div className="image">
             <motion.div
-              initial={{ scale: 1 }} // Initial scale (zoomed out)
-              animate={{ scale: 1.2 }} // Final scale (zoomed in)
+              initial={{ zoom: 0.95 }} // Initial scale (zoomed out)
+              animate={{ zoom: 1.1 }} // Final scale (zoomed in)
               transition={{
-                duration: 10, // Duration of the animation in seconds
+                duration: 12, // Duration of the animation in seconds
                 ease: "easeInOut", // Easing function for smooth animation
               }}
               style={{
                 height: "800px",
-                width: "100%",
                 backgroundImage:
                   "url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/image-7.png)",
                 backgroundSize: "cover",

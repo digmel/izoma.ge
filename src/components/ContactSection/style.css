@@ -4,7 +4,8 @@
 
 .contact-section .contact-section-wrapper {
   background-color: #f1f5f9;
-  height: 1073px;
+  height: 800px;
+
 }
 
 .contact-section .div-4 {
@@ -14,7 +15,7 @@
   gap: 36px;
   left: 135px;
   position: relative;
-  top: 250px;
+  top: 120px;
   width: fit-content;
 }
 
@@ -239,8 +240,8 @@
 
 .contact-section.is-mob-5-false {
   overflow: hidden;
-  margin-left: 160px;
   width: 100%;
+  padding-left: 80px;
 }
 
 .contact-section.is-mob-5-true {
