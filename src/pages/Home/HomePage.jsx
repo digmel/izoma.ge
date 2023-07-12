@@ -34,7 +34,8 @@ export const HomePage = () => {
         statisticsImg="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/logo-03@2x.png"
         statisticsLogo="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/logo-04.svg"
       />
-      <ServicesSection className="services-section" isMob={isMob} />
+
+      <ServicesSection isMob={isMob} />
       <div className="about-section">
         <div className="description-5">
           <div className="text-wrapper-5">ჩვენ შესახებ</div>

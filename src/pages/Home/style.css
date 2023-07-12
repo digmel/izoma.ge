@@ -9,12 +9,6 @@
   gap: 64px
 }
 
-.home .services-section {
-  left: 0 !important;
-  position: absolute !important;
-  top: 800px !important;
-}
-
 .home .about-section {
   align-items: center;
   display: flex;
