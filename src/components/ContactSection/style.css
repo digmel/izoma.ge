@@ -1,13 +1,10 @@
 .contact-section {
   position: relative;
-  margin-top: -64px;
 }
 
 .contact-section .contact-section-wrapper {
   background-color: #f1f5f9;
   height: 1073px;
-  position: relative;
-  top: -302px;
 }
 
 .contact-section .div-4 {
@@ -17,7 +14,7 @@
   gap: 36px;
   left: 135px;
   position: relative;
-  top: 358px;
+  top: 250px;
   width: fit-content;
 }
 
