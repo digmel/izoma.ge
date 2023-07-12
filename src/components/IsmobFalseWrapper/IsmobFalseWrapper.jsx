@@ -8,9 +8,9 @@ import React from "react";
 import { BlogSection } from "../BlogSection";
 import "./style.css";
 
-export const IsmobFalseWrapper = ({ isMob, className }) => {
+export const IsmobFalseWrapper = ({ isMob }) => {
   return (
-    <div className={`ismob-false-wrapper is-mob-2-${isMob} ${className}`}>
+    <div className={`ismob-false-wrapper is-mob-2-${isMob}`}>
       <div className="bg-3" />
       <img
         className="bg-texture"
@@ -46,7 +46,11 @@ export const IsmobFalseWrapper = ({ isMob, className }) => {
         }
         articleImgClassName={`${isMob && "class-5"}`}
         articleListClassName={`${isMob ? "class-8" : "class-9"}`}
-        articleText={isMob ? "მიწის აზომვის სრული პროცედურა" : "მიწის ნაკვეთის აზომვის სრული პროცედურები"}
+        articleText={
+          isMob
+            ? "მიწის აზომვის სრული პროცედურა"
+            : "მიწის ნაკვეთის აზომვის სრული პროცედურები"
+        }
         className={`${isMob ? "class-12" : "class-13"}`}
         titleClassName={`${isMob ? "class-14" : "class-15"}`}
       />

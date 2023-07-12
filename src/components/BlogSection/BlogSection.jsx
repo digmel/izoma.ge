@@ -58,11 +58,11 @@ export const BlogSection = ({
           titleClassName="article-instance"
         />
         <Article
-          className={articleDivClassNameOverride}
-          image={articleImage}
-          imageClassName={articleImageClassName}
-          text="3 რამ რაც უნდა გაითვალისწინო მიწის აზომვის დროს"
-          text1="თებერვალი 9, 2023"
+          className={articleDivClassName}
+          image={articleImage1}
+          imageClassName={articleImgClassName}
+          text="რა არის გასათვალისწინებელი ბინის აზომვისას?"
+          text1="მარტი 11, 2023"
           titleClassName="article-instance"
         />
       </div>

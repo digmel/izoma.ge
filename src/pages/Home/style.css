@@ -229,12 +229,6 @@
   background-color: var(--gray-800) !important;
 }
 
-.home .blog-section-instance {
-  left: 0 !important;
-  position: absolute !important;
-  top: 3625px !important;
-}
-
 .home .contact-section-instance {
   left: 80px !important;
   position: absolute !important;

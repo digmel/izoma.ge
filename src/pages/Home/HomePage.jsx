@@ -159,7 +159,7 @@ export const HomePage = () => {
         </div>
         <Button className="button-2" text="იხილე მეტი" />
       </div> */}
-      <IsmobFalseWrapper className="blog-section-instance" isMob={isMob} />
+      <IsmobFalseWrapper isMob={isMob} />
       <ContactSection
         className="contact-section-instance"
         iconBg="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/iconbg.svg"
