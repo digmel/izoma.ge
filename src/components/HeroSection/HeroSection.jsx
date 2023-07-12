@@ -1,8 +1,3 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
 import { Statistics } from "../Statistics";
@@ -10,12 +5,11 @@ import "./style.css";
 
 export const HeroSection = ({
   isMob,
-  className,
   statisticsLogo = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/logo-04-3.svg",
   statisticsImg = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/logo-03-3@2x.png",
 }) => {
   return (
-    <div className={`hero-section is-mob-${isMob} ${className}`}>
+    <div className={`hero-section is-mob-${isMob}`}>
       {!isMob && (
         <>
           <img
@@ -25,10 +19,14 @@ export const HeroSection = ({
           />
           <div className="hero-desciption">
             <div className="hero-text">
-              <p className="p">აზომვით სამუშაოები მთელი საქართველოს მასშტაბით</p>
+              <p className="p">
+                აზომვით სამუშაოები მთელი საქართველოს მასშტაბით
+              </p>
               <p className="element-4">
-                აზომვა სრულდება მაღალი სიზუსტის თანამედროვე აპარატურით, ნახაზები მზადდება საჯარო რეესტრის #388
-                დადგენილების მიხედვით, რომელიც გამოგადგებათ საჯარო რეესტრში ან სხვა ნებისმიერ ორგანოში წარსადგენად.
+                აზომვა სრულდება მაღალი სიზუსტის თანამედროვე აპარატურით, ნახაზები
+                მზადდება საჯარო რეესტრის #388 დადგენილების მიხედვით, რომელიც
+                გამოგადგებათ საჯარო რეესტრში ან სხვა ნებისმიერ ორგანოში
+                წარსადგენად.
               </p>
             </div>
             <Statistics
@@ -57,10 +55,14 @@ export const HeroSection = ({
       {isMob && (
         <div className="hero-desciption-2">
           <div className="hero-text-2">
-            <p className="element-5">აზომვით სამუშაოები მთელი საქართველოს მასშტაბით</p>
+            <p className="element-5">
+              აზომვით სამუშაოები მთელი საქართველოს მასშტაბით
+            </p>
             <p className="element-6">
-              აზომვა სრულდება მაღალი სიზუსტის თანამედროვე აპარატურით, ნახაზები მზადდება საჯარო რეესტრის #388
-              დადგენილების მიხედვით, რომელიც გამოგადგებათ საჯარო რეესტრში ან სხვა ნებისმიერ ორგანოში წარსადგენად.
+              აზომვა სრულდება მაღალი სიზუსტის თანამედროვე აპარატურით, ნახაზები
+              მზადდება საჯარო რეესტრის #388 დადგენილების მიხედვით, რომელიც
+              გამოგადგებათ საჯარო რეესტრში ან სხვა ნებისმიერ ორგანოში
+              წარსადგენად.
             </p>
           </div>
           <Statistics
