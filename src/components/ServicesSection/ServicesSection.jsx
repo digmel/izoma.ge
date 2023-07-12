@@ -77,12 +77,15 @@ export const ServicesSection = ({ isMob, className }) => {
                 <div className="title">სერვისები</div>
                 <div className="div-3">
                   <p className="title-2">
-                    აიზომა გთავაზობთ სრულ გეოდეზიურ მომსახურებას და ყველანაირი ტიპის აზომვითი ნახაზების მომზადებას:
+                    აიზომა გთავაზობთ სრულ გეოდეზიურ მომსახურებას და ყველანაირი
+                    ტიპის აზომვითი ნახაზების მომზადებას:
                   </p>
                   <div className="list">
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-8">ნებისმიერი ტიპის უძრავი ქონების ფართის აზომვა</p>
+                      <p className="element-8">
+                        ნებისმიერი ტიპის უძრავი ქონების ფართის აზომვა
+                      </p>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
@@ -90,39 +93,58 @@ export const ServicesSection = ({ isMob, className }) => {
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">შიდა აზომვითი ნახაზი დიზაინერისთვის</div>
+                      <div className="element-8">
+                        შიდა აზომვითი ნახაზი დიზაინერისთვის
+                      </div>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">მიწის ნაკვეთის საკადასტრო ნახაზი</div>
+                      <div className="element-8">
+                        მიწის ნაკვეთის საკადასტრო ნახაზი
+                      </div>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">ტოპო-გეოდეზიური დაგეგმარება</div>
+                      <div className="element-8">
+                        ტოპო-გეოდეზიური დაგეგმარება
+                      </div>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-8">მიწის ნაკვეთის დაკვალვა (საზღვრების დადგენა)</p>
+                      <p className="element-8">
+                        მიწის ნაკვეთის დაკვალვა (საზღვრების დადგენა)
+                      </p>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-8">აგრო კულტურების დაგეგმარება (ნერგების დაკვალვა/დათვლა)</p>
+                      <p className="element-8">
+                        აგრო კულტურების დაგეგმარება (ნერგების დაკვალვა/დათვლა)
+                      </p>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-9">ავტოფარეხის, სხვენის, სარდაფის, დამხმარე ფართის რეგისტრაცია</p>
+                      <p className="element-9">
+                        ავტოფარეხის, სხვენის, სარდაფის, დამხმარე ფართის
+                        რეგისტრაცია
+                      </p>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">კორპუსის წითელი ხაზების დადგენა-ცვლილება</div>
+                      <div className="element-8">
+                        კორპუსის წითელი ხაზების დადგენა-ცვლილება
+                      </div>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">უკანონო შენობა-ნაგებობების ლეგალიზაცია</div>
+                      <div className="element-8">
+                        უკანონო შენობა-ნაგებობების ლეგალიზაცია
+                      </div>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">გამიჯვნა-გაერთიანების სქემატური ნახაზი</div>
+                      <div className="element-8">
+                        გამიჯვნა-გაერთიანების სქემატური ნახაზი
+                      </div>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
@@ -152,12 +174,15 @@ export const ServicesSection = ({ isMob, className }) => {
               <div className="element-11">სერვისები</div>
               <div className="div-3">
                 <p className="element-12">
-                  აიზომა გთავაზობთ სრულ გეოდეზიურ მომსახურებას და ყველანაირი ტიპის აზომვითი ნახაზების მომზადებას:
+                  აიზომა გთავაზობთ სრულ გეოდეზიურ მომსახურებას და ყველანაირი
+                  ტიპის აზომვითი ნახაზების მომზადებას:
                 </p>
                 <div className="list">
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <p className="element-13">ნებისმიერი ტიპის უძრავი ქონების ფართის აზომვა</p>
+                    <p className="element-13">
+                      ნებისმიერი ტიპის უძრავი ქონების ფართის აზომვა
+                    </p>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
@@ -165,39 +190,58 @@ export const ServicesSection = ({ isMob, className }) => {
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <div className="element-14">შიდა აზომვითი ნახაზი დიზაინერისთვის</div>
+                    <div className="element-14">
+                      შიდა აზომვითი ნახაზი დიზაინერისთვის
+                    </div>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <div className="element-14">მიწის ნაკვეთის საკადასტრო ნახაზი</div>
+                    <div className="element-14">
+                      მიწის ნაკვეთის საკადასტრო ნახაზი
+                    </div>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <div className="element-14">ტოპო-გეოდეზიური დაგეგმარება</div>
+                    <div className="element-14">
+                      ტოპო-გეოდეზიური დაგეგმარება
+                    </div>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <p className="element-13">მიწის ნაკვეთის დაკვალვა (საზღვრების დადგენა)</p>
+                    <p className="element-13">
+                      მიწის ნაკვეთის დაკვალვა (საზღვრების დადგენა)
+                    </p>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <p className="element-13">აგრო კულტურების დაგეგმარება (ნერგების დაკვალვა/დათვლა)</p>
+                    <p className="element-13">
+                      აგრო კულტურების დაგეგმარება (ნერგების დაკვალვა/დათვლა)
+                    </p>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <p className="element-13">ავტოფარეხის, სხვენის, სარდაფის, დამხმარე ფართის რეგისტრაცია</p>
+                    <p className="element-13">
+                      ავტოფარეხის, სხვენის, სარდაფის, დამხმარე ფართის
+                      რეგისტრაცია
+                    </p>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <div className="element-13">კორპუსის წითელი ხაზების დადგენა-ცვლილება</div>
+                    <div className="element-13">
+                      კორპუსის წითელი ხაზების დადგენა-ცვლილება
+                    </div>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <div className="element-13">უკანონო შენობა-ნაგებობების ლეგალიზაცია</div>
+                    <div className="element-13">
+                      უკანონო შენობა-ნაგებობების ლეგალიზაცია
+                    </div>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />
-                    <div className="element-14">გამიჯვნა-გაერთიანების სქემატური ნახაზი</div>
+                    <div className="element-14">
+                      გამიჯვნა-გაერთიანების სქემატური ნახაზი
+                    </div>
                   </div>
                   <div className="item">
                     <Checkicon18 className="check-icon" />

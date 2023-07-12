@@ -24,10 +24,10 @@ export const HomePage = () => {
       <HeroSection isMob={isMob} />
       <ServicesSection isMob={isMob} />
 
-      <About />
-      <FAQSection />
+      {!isMob && <About />}
+      {!isMob && <FAQSection />}
 
-      <IsmobFalseWrapper isMob={isMob} />
+      {!isMob && <IsmobFalseWrapper isMob={isMob} />}
       <ContactSection isMob={isMob} />
       <Footer isMob={isMob} />
     </div>
