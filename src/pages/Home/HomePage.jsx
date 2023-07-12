@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./style.css";
-
 import { ContactSection } from "../../components/ContactSection";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { HeroSection } from "../../components/HeroSection";
 import { IsmobFalseWrapper } from "../../components/IsmobFalseWrapper";
 import { ServicesSection } from "../../components/ServicesSection";
-
 import { About } from "../../components/About";
 import { FAQSection } from "../../components/FAQ";
+import "./style.css";
 
 export const HomePage = () => {
   const [isMob, setIsMob] = useState(false);
