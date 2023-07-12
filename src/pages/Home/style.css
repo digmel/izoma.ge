@@ -228,11 +228,3 @@
 .home .button-2 {
   background-color: var(--gray-800) !important;
 }
-
-.home .footer-instance {
-  height: auto !important;
-  left: 0 !important;
-  mix-blend-mode: normal !important;
-  position: absolute !important;
-  top: 5058px !important;
-}

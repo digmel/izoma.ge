@@ -1,8 +1,3 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
 import { Arrowicon1 } from "../../icons/Arrowicon1";
@@ -11,12 +6,11 @@ import "./style.css";
 
 export const Footer = ({
   isMob,
-  className,
   logoDefaultKey = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-3.svg",
   logoDefaultRing = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-4.svg",
 }) => {
   return (
-    <div className={`footer is-mob-6-${isMob} ${className}`}>
+    <div className={`footer is-mob-6-${isMob}`}>
       <div className="logo-2">
         {!isMob && (
           <>

@@ -167,7 +167,6 @@ export const HomePage = () => {
       />
 
       <Footer
-        className="footer-instance"
         isMob={isMob}
         logoDefaultKey="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-2.svg"
         logoDefaultRing="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-2.svg"
