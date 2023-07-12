@@ -1,10 +1,10 @@
 .contact-section {
   position: relative;
+  margin-top: -64px;
 }
 
 .contact-section .contact-section-wrapper {
   background-color: #f1f5f9;
-  border-radius: 4px;
   height: 1073px;
   position: relative;
   top: -302px;
@@ -241,10 +241,9 @@
 }
 
 .contact-section.is-mob-5-false {
-  border-radius: 8px;
-  height: 771px;
   overflow: hidden;
-  width: 1200px;
+  margin-left: 160px;
+  width: 100%;
 }
 
 .contact-section.is-mob-5-true {
