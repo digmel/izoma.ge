@@ -226,3 +226,171 @@
   position: relative;
   width: 798px;
 }
+
+
+
+
+.FAQ .FAQ-wrapper {
+  border: 0px none;
+  height: 1456px;
+  width: 390px;
+}
+
+.FAQ {
+  align-items: flex-start;
+  background-color: var(--gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0px;
+  position: relative;
+  width: 390px;
+}
+
+.FAQ .title {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 0px 0px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.FAQ .text-wrapper {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.FAQ .div {
+  align-items: flex-start;
+  background-color: var(--gray-100);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px;
+  position: relative;
+  width: 390px;
+}
+
+.FAQ .question {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--white);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: var(--gray-200);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 8px;
+  position: relative;
+}
+
+.FAQ .number {
+  color: var(--gray-500);
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 50.4px;
+  margin-top: -2px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 1px 0px 0px;
+  position: relative;
+}
+
+.FAQ .header {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  padding: 16px 8px;
+}
+
+.FAQ .p {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  width: 278px;
+}
+
+.FAQ .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 806px;
+  width: 326px;
+}
+
+.FAQ .text {
+  color: var(--gray-600);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  width: 326px;
+}
+
+.FAQ .span {
+  color: #4b5563;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.FAQ .span-wrapper {
+  color: var(--gray-600);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: 326px;
+}
+
+.FAQ .chevron-icon-bg-instance {
+  transform: rotate(-90deg) !important;
+}
+
+.FAQ .chevronicon-3 {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+  transform: rotate(90deg) !important;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}

@@ -23,10 +23,8 @@ export const HomePage = () => {
       <Header isMob={isMob} />
       <HeroSection isMob={isMob} />
       <ServicesSection isMob={isMob} />
-
       <About isMob={isMob} />
-      {!isMob && <FAQSection />}
-
+      <FAQSection isMob={isMob} />
       <IsmobFalseWrapper isMob={isMob} />
       <ContactSection isMob={isMob} />
       <Footer isMob={isMob} />
