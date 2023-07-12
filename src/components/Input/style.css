@@ -1,0 +1,150 @@
+.input {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 320px;
+}
+
+.input .base-input-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+
+.input .label-i {
+  color: var(--gray-900);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input .icon-wrapper {
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-radius: 3px;
+  display: flex;
+  height: 40px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.input .icon-2 {
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.input .message {
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input .base-input-instance {
+  align-self: stretch !important;
+  width: unset !important;
+}
+
+.input .base-input-3 {
+  color: var(--gray-900) !important;
+  font-family: "Noto Sans Georgian", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 600 !important;
+  letter-spacing: 0 !important;
+  line-height: 19.6px !important;
+}
+
+.input .base-input-4 {
+  background-color: var(--gray-50) !important;
+  border: 2px solid !important;
+  border-color: var(--gray-200) !important;
+}
+
+.input .state-disabled {
+  background-color: var(--gray-200);
+  border-color: var(--gray-200);
+}
+
+.input .state-success {
+  background-color: var(--gray-50);
+}
+
+.input .state-error {
+  background-color: var(--gray-50);
+}
+
+.input .state-success.fill-false {
+  border-color: var(--gray-50);
+}
+
+.input .state-default.fill-false {
+  border-color: var(--gray-50);
+}
+
+.input .fill-true.state-default {
+  background-color: var(--gray-50);
+  border-color: var(--gray-200);
+}
+
+.input .state-error.fill-false {
+  border-color: var(--gray-50);
+}
+
+.input .fill-true.state-error {
+  border-color: var(--red-500);
+}
+
+.input .fill-true.state-success {
+  border-color: var(--green-500);
+}
+
+.input .state-focused.fill-false {
+  border-color: var(--gray-50);
+}
+
+.input .state-1-disabled {
+  color: var(--red-500);
+}
+
+.input .state-1-default {
+  color: var(--red-500);
+}
+
+.input .state-1-focused {
+  color: var(--red-500);
+}
+
+.input .state-1-success {
+  color: var(--green-500);
+}
+
+.input .state-1-error {
+  color: var(--red-500);
+}
+
+.input .icon-wrapper.state-success .icon-2 {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/tick.svg);
+  background-size: 100% 100%;
+}
+
+.input .icon-wrapper.state-error .icon-2 {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/error.svg);
+  background-size: 100% 100%;
+}

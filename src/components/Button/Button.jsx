@@ -7,22 +7,14 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Button = ({
-  className,
-  requestAnEstimateClassName,
-  text = "დონაცია",
-}) => {
+export const Button = ({ className, text = "კონტაქტი" }) => {
   return (
     <div className={`button ${className}`}>
-      <div className={`request-an-estimate ${requestAnEstimateClassName}`}>
-        {text}
-      </div>
+      <div className="element-7">{text}</div>
     </div>
   );
 };
 
 Button.propTypes = {
   text: PropTypes.string,
-  className: PropTypes.string,
-  requestAnEstimateClassName: PropTypes.string,
 };

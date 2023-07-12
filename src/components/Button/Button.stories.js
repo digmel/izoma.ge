@@ -7,8 +7,7 @@ export default {
 
 export const Default = {
   args: {
-    requestAnEstimateClassName: {},
-    text: "დონაცია",
     className: {},
+    text: "კონტაქტი",
   },
 };

@@ -1,68 +1,95 @@
 .header {
-  display: flex;
-  flex: 1;
   align-items: center;
-  position: fixed;
-  background-color: #ffffff;
-  justify-content: center;
-  padding: 8px 0;
-  width: 100%;
-  z-index: 10;
+  box-shadow: 0px 2px 4px #0e4e621a;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
-.header .container-start {
-  display: flex;
-  flex: 1;
-  justify-content: flex-start;
+.header .logo-default-wrapper {
+  align-self: stretch;
+  height: 36px;
+  min-width: 100px;
+  position: relative;
+}
+
+.header .menu-instance {
+  font-size: 14px !important;
+  line-height: 19.6px !important;
+}
+
+.header .logo-wrapper {
+  height: 32px;
+  min-width: 157px;
+  position: relative;
+}
+
+.header .logo-default-instance-wrapper {
+  height: 32px;
+  left: 12px;
+  position: relative;
+  width: 89px;
+}
+
+.header .logo-default-instance {
+  height: 27px !important;
+  top: 3px !important;
+  width: 84px !important;
+}
+
+.header .logo-default-2 {
+  height: 27px !important;
+  width: 83px !important;
+}
+
+.header .logo-default-3 {
+  height: 24px !important;
+  width: 20px !important;
+}
+
+.header .logo-default-4 {
+  height: 12px !important;
+  left: 4px !important;
+  top: 16px !important;
+  width: 79px !important;
+}
+
+.header .logo-default-5 {
+  height: 10px !important;
+  left: 23px !important;
+  width: 60px !important;
+}
+
+.header .logo-default-6 {
+  height: 30px !important;
+  width: 85px !important;
+}
+
+.header .menu-icon-wrapper {
   align-items: center;
-  margin-left: 120px;
-  padding-right: 24px;
-}
-
-.header .container-end {
   display: flex;
-  flex: 1;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 120px;
-  gap: 48px;
-
+  gap: 10px;
+  height: 32px;
+  justify-content: space-around;
+  padding: 0px 12px;
+  position: relative;
+  width: 56px;
 }
 
-.header .menu-item-active {
-  color: #08385c;
-  font-weight: 700;
-  line-height: 22.4px;
-  text-align: center;
-  white-space: nowrap;
+.header .menu-icon {
+  height: 32px !important;
+  min-width: 32px !important;
+  position: relative !important;
 }
 
-.header .menu-item {
-  display: flex;
-  color: #08385c;
-  font-family: "Noto Serif Georgian", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  white-space: nowrap;
+.header.is-mob-0-false {
+  background-color: var(--white);
+  padding: 12px 120px;
+  width: 1280px;
 }
 
-.header .button-instance {
-  background-color: unset !important;
-  border: 1px solid !important;
-  border-color: #008ca8 !important;
-}
-
-.header .design-component-instance-node {
-  color: #008ca8 !important;
-  margin-left: -10.5px !important;
-  margin-right: -10.5px !important;
-}
-
-.header .button-2 {
-  font-size: 16px !important;
-  line-height: normal !important;
-  white-space: unset !important;
+.header.is-mob-0-true {
+  background-color: var(--gray-100);
+  padding: 12px;
+  width: 390px;
 }

@@ -1,0 +1,16 @@
+.chevron-icon-bg {
+  align-items: center;
+  background-color: #f3f4f6;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.chevron-icon-bg .chevron-icon {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+}

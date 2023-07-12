@@ -1,0 +1,698 @@
+.services-section .services {
+  height: 770px;
+  left: 71px;
+  position: relative;
+  width: 1209px;
+}
+
+.services-section .overlap-group-2 {
+  height: 770px;
+  position: relative;
+}
+
+.services-section .vector {
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 77px;
+  width: 108px;
+}
+
+.services-section .rectangle {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-2 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-3 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-4 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-5 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-6 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-7 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.services-section .rectangle-8 {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-9 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-10 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-11 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-12 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-13 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-14 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.services-section .rectangle-15 {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-16 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-17 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-18 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-19 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-20 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-21 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 34px;
+  width: 7px;
+}
+
+.services-section .rectangle-22 {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-23 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-24 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-25 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-26 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-27 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-28 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.services-section .rectangle-29 {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-30 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-31 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-32 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-33 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-34 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-35 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 67px;
+  width: 7px;
+}
+
+.services-section .rectangle-36 {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-37 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-38 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-39 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-40 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-41 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-42 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 84px;
+  width: 7px;
+}
+
+.services-section .rectangle-43 {
+  background-color: #136f88;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .rectangle-44 {
+  background-color: #136f88;
+  height: 7px;
+  left: 17px;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .rectangle-45 {
+  background-color: #136f88;
+  height: 7px;
+  left: 34px;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .rectangle-46 {
+  background-color: #136f88;
+  height: 7px;
+  left: 50px;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .rectangle-47 {
+  background-color: #136f88;
+  height: 7px;
+  left: 67px;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .rectangle-48 {
+  background-color: #136f88;
+  height: 7px;
+  left: 84px;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .rectangle-49 {
+  background-color: #136f88;
+  height: 7px;
+  left: 101px;
+  position: absolute;
+  top: 101px;
+  width: 7px;
+}
+
+.services-section .bg {
+  background-color: var(--slate-100);
+  border-radius: 8px;
+  height: 770px;
+  left: 302px;
+  position: absolute;
+  top: 0;
+  width: 907px;
+}
+
+.services-section .content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 49px;
+  position: absolute;
+  top: 100px;
+  width: 1040px;
+}
+
+.services-section .image-2 {
+  height: 500px;
+  min-width: 416px;
+  object-fit: cover;
+  position: relative;
+}
+
+.services-section .description {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 576px;
+}
+
+.services-section .title {
+  align-self: stretch;
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.services-section .div-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.services-section .title-2 {
+  align-self: stretch;
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.services-section .list {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.services-section .item {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  position: relative;
+}
+
+.services-section .check-icon {
+  height: 16px !important;
+  min-width: 16px !important;
+  position: relative !important;
+}
+
+.services-section .element-8 {
+  color: var(--gray-800);
+  flex: 1;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.services-section .element-9 {
+  color: var(--gray-800);
+  flex: 1;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.services-section .element-10 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.services-section .bg-2 {
+  background-color: var(--slate-100);
+  border-radius: 8px;
+  height: 892px;
+  left: 0;
+  position: absolute;
+  top: -162px;
+  width: 390px;
+}
+
+.services-section .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.services-section .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 24px;
+  position: relative;
+}
+
+.services-section .element-11 {
+  align-self: stretch;
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.services-section .element-12 {
+  align-self: stretch;
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.services-section .element-13 {
+  color: var(--gray-800);
+  flex: 1;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.services-section .element-14 {
+  color: var(--gray-800);
+  flex: 1;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.services-section .element-15 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.services-section.is-mob-1-false {
+  height: 820px;
+  width: 1280px;
+}
+
+.services-section.is-mob-1-true {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0px;
+  position: relative;
+  width: 390px;
+}

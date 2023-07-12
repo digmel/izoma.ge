@@ -1,0 +1,26 @@
+.contact-form {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 64px 96px 64px 64px;
+  position: relative;
+  width: fit-content;
+}
+
+.contact-form .input-instance {
+  align-self: stretch !important;
+  height: 122px !important;
+  width: unset !important;
+}
+
+.contact-form .design-component-instance-node {
+  flex: 1 !important;
+}
+
+.contact-form .input-2 {
+  flex: 1 !important;
+  height: unset !important;
+}

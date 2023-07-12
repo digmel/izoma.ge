@@ -8,3 +8,445 @@
   background-color: #ffffff;
   gap: 64px
 }
+
+.home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div-5 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 5213px;
+  position: relative;
+  width: 1280px;
+}
+
+.home .overlap-2 {
+  height: 800px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.home .design-component-instance-node-2 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.home .services-section {
+  left: 0 !important;
+  position: absolute !important;
+  top: 800px !important;
+}
+
+.home .about-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 96px 120px;
+  position: absolute;
+  top: 1620px;
+  width: 1280px;
+}
+
+.home .description-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+  width: 500px;
+}
+
+.home .text-wrapper-5 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 184px;
+  width: 500px;
+}
+
+.home .text {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: relative;
+  width: 500px;
+}
+
+.home .span {
+  color: #1f2937;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 22.4px;
+}
+
+.home .work-hours {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 4px;
+  position: relative;
+}
+
+.home .clock-icon {
+  height: 20px !important;
+  min-width: 20px !important;
+  position: relative !important;
+}
+
+.home .text-wrapper-6 {
+  color: var(--gray-500);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home .group {
+  height: 490px;
+  min-width: 476px;
+  position: relative;
+}
+
+.home .rectangle-wrapper {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/rectangle-5197-2@2x.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 296px;
+  position: absolute;
+  top: 37px;
+  width: 180px;
+}
+
+.home .rectangle-50 {
+  height: 200px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.home .rectangle-51 {
+  height: 237px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 280px;
+}
+
+.home .rectangle-52 {
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 253px;
+  width: 180px;
+}
+
+.home .rectangle-53 {
+  height: 237px;
+  left: 196px;
+  object-fit: cover;
+  position: absolute;
+  top: 253px;
+  width: 280px;
+}
+
+.home .FAQ {
+  align-items: center;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 0;
+  padding: 128px 120px;
+  position: absolute;
+  top: 2302px;
+  width: 1280px;
+}
+
+.home .text-wrapper-7 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home .faq {
+  align-self: stretch;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px #0000001a;
+  height: 879px;
+  min-width: 1040px;
+  position: relative;
+}
+
+.home .overlap-group-3 {
+  height: 881px;
+  left: -2px;
+  position: relative;
+  width: 1044px;
+}
+
+.home .question {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  left: 2px;
+  padding: 40px 56px;
+  position: absolute;
+  top: 0;
+  width: 1040px;
+}
+
+.home .number {
+  color: var(--gray-500);
+  font-family: "Inter", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 50.4px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home .content-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  padding: 3px 0px 0px;
+  position: relative;
+}
+
+.home .header-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.home .block-title-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.home .block-title {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 788px;
+}
+
+.home .flex-container-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 760px;
+}
+
+.home .flex-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 488px;
+  width: 760px;
+}
+
+.home .span-wrapper {
+  color: var(--gray-600);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  width: 760px;
+}
+
+.home .text-wrapper-8 {
+  color: #4b5563;
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.home .text-2 {
+  color: var(--gray-600);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: 760px;
+}
+
+.home .question-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-color: var(--gray-200);
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  left: 0;
+  padding: 40px 56px;
+  position: absolute;
+  top: 617px;
+  width: 1044px;
+}
+
+.home .header-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.home .block-title-2 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  width: 799px;
+}
+
+.home .chevron-icon-bg-instance {
+  transform: rotate(-90deg) !important;
+}
+
+.home .chevronicon-3 {
+  height: 24px !important;
+  min-width: 24px !important;
+  position: relative !important;
+  transform: rotate(90deg) !important;
+}
+
+.home .question-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-color: var(--gray-200);
+  border-top-style: solid;
+  border-top-width: 2px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  left: 0;
+  padding: 40px 56px;
+  position: absolute;
+  top: 747px;
+  width: 1044px;
+}
+
+.home .header-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.home .block-title-3 {
+  color: var(--gray-800);
+  font-family: "Noto Sans Georgian", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  margin-top: -1px;
+  position: relative;
+  width: 798px;
+}
+
+.home .button-2 {
+  background-color: var(--gray-800) !important;
+}
+
+.home .blog-section-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 3625px !important;
+}
+
+.home .contact-section-instance {
+  left: 80px !important;
+  position: absolute !important;
+  top: 4287px !important;
+}
+
+.home .footer-instance {
+  height: auto !important;
+  left: 0 !important;
+  mix-blend-mode: normal !important;
+  position: absolute !important;
+  top: 5058px !important;
+}

@@ -1,71 +1,116 @@
+/*
+We're constantly improving the code you see. 
+Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
+*/
+
+import PropTypes from "prop-types";
 import React from "react";
-import { Arrow } from "../../icons/Arrow";
-import { Envelope } from "../Envelope";
-import { Facebook } from "../Facebook";
-import { PhoneWrapper } from "../PhoneWrapper";
+import { Arrowicon1 } from "../../icons/Arrowicon1";
+import { LogoDefault } from "../LogoDefault";
 import "./style.css";
 
-// TODO: fix subscribe input field and make it responsive
-
-export const Footer = () => {
+export const Footer = ({
+  isMob,
+  className,
+  logoDefaultKey = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-3.svg",
+  logoDefaultRing = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-4.svg",
+}) => {
   return (
-    <div className="footer">
-      <div className="copyrights">
-        <img
-          className="logo-2"
-          alt="Logo"
-          src="https://generation-sessions.s3.amazonaws.com/4f51778ef214edae8b0ea1fd62cf36a9/img/logo-1@2x.png"
-        />
-        <img
-          className="divider"
-          alt="Divider"
-          src="https://generation-sessions.s3.amazonaws.com/4f51778ef214edae8b0ea1fd62cf36a9/img/divider-1.svg"
-        />
-        <p className="p">
-          2023 ყველა უფლება დაცულია&nbsp;&nbsp;მთიელი წიგნების მიერ.
-        </p>
-      </div>
-      <div className="contact">
-        <div className="title-5">კონტაქტი</div>
-        <div className="div-9">
-          <div className="container">
-            <PhoneWrapper className="phone-instance" />
-            <div className="text-wrapper-3">+(995) 599 999 999</div>
-          </div>
-          <div className="container">
-            <Facebook className="facebook-instance" />
-            <a
-              className="text-wrapper-3"
-              href={""}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              facebook.com/mtieli.tsignebi
-            </a>
-          </div>
-          <div className="container">
-            <Envelope className="envelope-instance" />
-            <div className="text-wrapper-3">mtielitsignebi@ge</div>
-          </div>
-        </div>
+    <div className={`footer is-mob-6-${isMob} ${className}`}>
+      <div className="logo-2">
+        {!isMob && (
+          <>
+            <LogoDefault
+              className="logo-default-7"
+              key={logoDefaultKey}
+              name="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-3.svg"
+              ring={logoDefaultRing}
+            />
+            <div className="copyrights">
+              <img
+                className="copyrights-icon"
+                alt="Copyrights icon"
+                src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/copyrightsicon-1.svg"
+              />
+              <p className="copyrights-2">2010 - 2023 ყველა უფლება დაცულია</p>
+            </div>
+          </>
+        )}
+
+        {isMob && (
+          <>
+            <div className="element-16">გამოიწერე სიახლეები</div>
+            <div className="input-3">
+              <div className="base-input-wrapper">
+                <div className="input-field-wrapper">
+                  <div className="input-field-2">
+                    <div className="txt">Email Address</div>
+                    <div className="arrow-icon" />
+                  </div>
+                </div>
+              </div>
+              <div className="arrow-icon-wrapper">
+                <Arrowicon1 className="arrow-icon" />
+              </div>
+            </div>
+          </>
+        )}
       </div>
       <div className="subscribe">
-        <div className="title-5">გამოიწერე სიახლეები</div>
-        <div className="div-9">
-          <p className="description-4">
-            დაგეგმილი და შესრულებული მოგზაურობების შესახებ
-          </p>
-          <div className="input">
-            <div className="overlap-group-2">
-              <div className="arrow-wrapper">
-                <Arrow className="arrow-instance" />
+        {!isMob && (
+          <>
+            <div className="element-17">გამოიწერე სიახლეები</div>
+            <div className="input-3">
+              <div className="base-input-wrapper">
+                <div className="input-field-wrapper">
+                  <div className="input-field-2">
+                    <div className="txt">Email Address</div>
+                    <div className="arrow-icon" />
+                  </div>
+                </div>
               </div>
-              <div className="element-7">შენი ელ-ფოსტა</div>
-              <div className="input-2" />
+              <div className="arrow-icon-wrapper">
+                <Arrowicon1 className="arrow-icon" />
+              </div>
             </div>
-          </div>
-        </div>
+          </>
+        )}
+
+        {isMob && (
+          <>
+            <div className="logo-light">
+              <LogoDefault
+                className="logo-default-8"
+                key="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-2.svg"
+                name="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-2.svg"
+                ring="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-3.svg"
+              />
+            </div>
+            <img
+              className="line"
+              alt="Line"
+              src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/line-38.svg"
+            />
+            <div className="copy">
+              <div className="frame-3">
+                <img
+                  className="vector-2"
+                  alt="Vector"
+                  src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/vector-1.svg"
+                />
+                <div className="copyrights-3">2010 - 2023</div>
+              </div>
+              <div className="copyrights-4">ყველა უფლება დაცულია</div>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
+};
+
+Footer.propTypes = {
+  isMob: PropTypes.bool,
+  logoDefaultKey: PropTypes.string,
+  logoDefaultRing: PropTypes.string,
 };
