@@ -23,35 +23,16 @@ export const HomePage = () => {
 
   return (
     <div className="home">
-      <Header
-        isMob={isMob}
-        logoDefaultKey="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key.svg"
-        logoDefaultName="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name.svg"
-        logoDefaultRing="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-1.svg"
-      />
-      <HeroSection
-        isMob={isMob}
-        statisticsImg="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/logo-03@2x.png"
-        statisticsLogo="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/logo-04.svg"
-      />
-
+      <Header isMob={isMob} />
+      <HeroSection isMob={isMob} />
       <ServicesSection isMob={isMob} />
 
       <About />
       <FAQSection />
 
       <IsmobFalseWrapper isMob={isMob} />
-
-      <ContactSection
-        iconBg="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/iconbg.svg"
-        isMob={isMob}
-      />
-
-      <Footer
-        isMob={isMob}
-        logoDefaultKey="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-2.svg"
-        logoDefaultRing="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-2.svg"
-      />
+      <ContactSection isMob={isMob} />
+      <Footer isMob={isMob} />
     </div>
   );
 };
