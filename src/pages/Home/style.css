@@ -1,4 +1,4 @@
-.Wrapper {
+.home {
   display: flex;
   flex: 1;
   width: 100%;
@@ -7,36 +7,6 @@
   border: 1px none;
   background-color: #ffffff;
   gap: 64px
-}
-
-.home {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.home .div-5 {
-  background-color: #ffffff;
-  border: 1px none;
-  height: 5213px;
-  position: relative;
-  width: 1280px;
-}
-
-.home .overlap-2 {
-  height: 800px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1280px;
-}
-
-.home .design-component-instance-node-2 {
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
 }
 
 .home .services-section {
