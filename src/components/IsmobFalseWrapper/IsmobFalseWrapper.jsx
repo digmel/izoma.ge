@@ -10,7 +10,7 @@ import "./style.css";
 
 export const IsmobFalseWrapper = ({ isMob }) => {
   return (
-    <div className={`ismob-false-wrapper is-mob-2-${isMob}`}>
+    <div id='news' className={`ismob-false-wrapper is-mob-2-${isMob}`}>
       <div className="bg-3" />
       <img
         className="bg-texture"

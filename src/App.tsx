@@ -8,14 +8,16 @@ import IntroPage from "./pages/Intro/IntroPage";
 function App() {
   return (
     <Provider store={store}>
-      <HashRouter>
-        <Routes>
-          <Route path={"/"} element={<IntroPage />} />
-          <Route path={"/demo"} element={<HomePage />} />
-        </Routes>
-      </HashRouter>
+      <HomePage />
     </Provider>
   );
 }
 
 export default App;
+
+{/* <HashRouter>
+<Routes>
+  <Route path={"/"} element={<HomePage />} />
+  <Route path={"/intro"} element={<IntroPage />} />
+</Routes>
+</HashRouter> */}

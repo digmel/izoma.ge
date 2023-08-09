@@ -19,13 +19,13 @@ export const HomePage = () => {
   }, []);
 
   return (
-    <div className="home">
+    <div className="home" id="home">
       <Header isMob={isMob} />
       <HeroSection isMob={isMob} />
-      <ServicesSection isMob={isMob} />
-      <About isMob={isMob} />
+      <ServicesSection  isMob={isMob} />
+      <About  isMob={isMob} />
       <FAQSection isMob={isMob} />
-      <IsmobFalseWrapper isMob={isMob} />
+      <IsmobFalseWrapper  isMob={isMob} />
       <ContactSection isMob={isMob} />
       <Footer isMob={isMob} />
     </div>

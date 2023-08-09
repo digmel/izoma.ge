@@ -5,7 +5,7 @@ import "./style.css";
 
 export const About = ({ isMob }) => {
   return (
-    <>
+    <div id="about">
       {!isMob && (
         <div className="about">
           <div className="description-5">
@@ -119,6 +119,6 @@ export const About = ({ isMob }) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };

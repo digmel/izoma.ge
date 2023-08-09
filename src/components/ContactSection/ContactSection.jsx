@@ -14,7 +14,7 @@ export const ContactSection = ({
   iconBg = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/iconbg-2.svg",
 }) => {
   return (
-    <div className={`contact-section is-mob-5-${isMob}`}>
+    <div id="contact" className={`contact-section is-mob-5-${isMob}`}>
       {!isMob && (
         <div className="contact-section-wrapper">
           <div className="div-4">

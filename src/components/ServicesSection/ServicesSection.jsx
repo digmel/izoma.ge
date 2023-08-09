@@ -11,7 +11,7 @@ import "./style.css";
 
 export const ServicesSection = ({ isMob, className }) => {
   return (
-    <div className={`services-section is-mob-1-${isMob} ${className}`}>
+    <div id="services" className={`services-section is-mob-1-${isMob} ${className}`}>
       {!isMob && (
         <div className="services">
           <div className="overlap-group-2">

@@ -1,9 +1,3 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
-import PropTypes from "prop-types";
 import React from "react";
 import { Button } from "../Button";
 import "./style.css";
@@ -18,20 +12,32 @@ export const Menu = ({
   newsClassName,
   text3 = "News",
 }) => {
+  
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <div className="menu">
-      <div className={`text-wrapper-2 ${homeClassName}`}>{text}</div>
-      <div className={`text-wrapper-2 ${servicesClassName}`}>{text1}</div>
-      <div className={`text-wrapper-2 ${aboutClassName}`}>{text2}</div>
-      <div className={`text-wrapper-2 ${newsClassName}`}>{text3}</div>
-      <Button className="button-instance" text="კონტაქტი" />
+      <div className={`text-wrapper-2 ${homeClassName}`} onClick={() => scrollToSection("home")}>
+        {text}
+      </div>
+      <div className={`text-wrapper-2 ${servicesClassName}`} onClick={() => scrollToSection("services")}>
+        {text1}
+      </div>
+      <div  className={`text-wrapper-2 ${aboutClassName}`}  onClick={() => scrollToSection("about")}>
+        {text2}
+      </div>
+      <div className={`text-wrapper-2 ${newsClassName}`}  onClick={() => scrollToSection("news")}>
+        {text3}
+      </div>
+      <Button className="button-instance" text="კონტაქტი" onClick={() => scrollToSection("contact")}  />
     </div>
   );
-};
-
-Menu.propTypes = {
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
 };
