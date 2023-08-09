@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "../Button";
 import "./style.css";
 
@@ -12,6 +12,7 @@ export const Menu = ({
   newsClassName,
   text3 = "News",
 }) => {
+  const [activeSection, setActiveSection] = useState(null);
   
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -21,20 +22,21 @@ export const Menu = ({
         behavior: "smooth"
       });
     }
+    setActiveSection(sectionId);
   };
 
   return (
     <div className="menu">
-      <div className={`text-wrapper-2 ${homeClassName}`} onClick={() => scrollToSection("home")}>
+      <div className={`text-wrapper-2 ${homeClassName}  ${activeSection === "home" ? "bold" : ""}`} onClick={() => scrollToSection("home")}>
         {text}
       </div>
-      <div className={`text-wrapper-2 ${servicesClassName}`} onClick={() => scrollToSection("services")}>
+      <div className={`text-wrapper-2 ${servicesClassName}  ${activeSection === "services" ? "bold" : ""}`} onClick={() => scrollToSection("services")}>
         {text1}
       </div>
-      <div  className={`text-wrapper-2 ${aboutClassName}`}  onClick={() => scrollToSection("about")}>
+      <div  className={`text-wrapper-2 ${aboutClassName}  ${activeSection === "about" ? "bold" : ""}`}  onClick={() => scrollToSection("about")}>
         {text2}
       </div>
-      <div className={`text-wrapper-2 ${newsClassName}`}  onClick={() => scrollToSection("news")}>
+      <div className={`text-wrapper-2 ${newsClassName}  ${activeSection === "news" ? "bold" : ""}`}  onClick={() => scrollToSection("news")}>
         {text3}
       </div>
       <Button className="button-instance" text="კონტაქტი" onClick={() => scrollToSection("contact")}  />

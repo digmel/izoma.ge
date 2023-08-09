@@ -21,3 +21,7 @@
 .menu .button-instance {
   background-color: var(--gray-800) !important;
 }
+
+.menu .bold {
+  font-weight: 700;
+}
