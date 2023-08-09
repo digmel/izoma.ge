@@ -4,6 +4,17 @@ import { Clockicon2 } from "../../icons/Clockicon2";
 import "./style.css";
 
 export const About = ({ isMob }) => {
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <div id="about">
       {!isMob && (
@@ -34,7 +45,7 @@ export const About = ({ isMob }) => {
                 ვმუშაობთ ყოველ დღე 10:00-დან 18:00-მდე
               </p>
             </div>
-            <Button />
+            <Button onClick={() => scrollToSection("contact")} />
           </div>
           <div className="group">
             <div className="rectangle-wrapper">
@@ -114,7 +125,7 @@ export const About = ({ isMob }) => {
                 <Clockicon2 className="clock-icon" color="#6B7280" />
                 <p className="p">ვმუშაობთ ყოველ დღე 10:00-დან 18:00-მდე</p>
               </div>
-              <Button />
+              <Button onClick={() => scrollToSection("contact")} />
             </div>
           </div>
         </div>
