@@ -1,9 +1,3 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
-import PropTypes from "prop-types";
 import React from "react";
 import { Menuicon } from "../../icons/Menuicon";
 import { LogoDefault } from "../LogoDefault";
@@ -17,11 +11,17 @@ export const Header = ({
   logoDefaultName = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-6.svg",
   logoDefaultRing = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring.svg",
 }) => {
+
+  const reloadPage = () => {
+    window.scrollTo(0, 0);
+    window.location.reload();
+  };
+  
   return (
     <div className={`header is-mob-0-${isMob} ${className}`}>
       {!isMob && (
         <>
-          <div className="logo-default-wrapper">
+          <div className="logo-default-wrapper" onClick={reloadPage}>
             <LogoDefault key={logoDefaultKey} name={logoDefaultName} ring={logoDefaultRing} />
           </div>
           <Menu
@@ -39,7 +39,7 @@ export const Header = ({
 
       {isMob && (
         <>
-          <div className="logo-wrapper">
+          <div className="logo-wrapper" onClick={reloadPage}>
             <div className="logo-default-instance-wrapper">
               <LogoDefault
                 className="logo-default-6"
@@ -61,11 +61,4 @@ export const Header = ({
       )}
     </div>
   );
-};
-
-Header.propTypes = {
-  isMob: PropTypes.bool,
-  logoDefaultKey: PropTypes.string,
-  logoDefaultName: PropTypes.string,
-  logoDefaultRing: PropTypes.string,
 };
