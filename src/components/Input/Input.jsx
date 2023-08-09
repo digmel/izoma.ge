@@ -23,9 +23,9 @@ export const Input = ({
       {["default", "disabled", "error", "success"].includes(state) && (
         <div className={`base-input-2 ${baseInputClassName}`}>
           <div className={`label-i ${labelClassName}`}>{text}</div>
-          <div className={`icon-wrapper state-${state} fill-${fill1} ${inputFieldClassName}`}>
-            <div className="icon-2" />
-          </div>
+          <input className={`icon-wrapper state-${state} fill-${fill1} ${inputFieldClassName}`}>
+            {/* <div className="icon-2" /> */}
+          </input>
           {["error", "success"].includes(state) && <div className={`message state-1-${state}`}>Error Message</div>}
         </div>
       )}

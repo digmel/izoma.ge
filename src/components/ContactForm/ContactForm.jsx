@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 /*
 We're constantly improving the code you see. 
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
@@ -56,7 +57,7 @@ export const ContactForm = ({
         state="default"
         text={inputText3}
       />
-      <Button className={buttonButtonClassName} text="გაგზავნა" />
+      <Button className={buttonButtonClassName} text="გაგზავნა" onClick={()=>{}}/>
     </div>
   );
 };

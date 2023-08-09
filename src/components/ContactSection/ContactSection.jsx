@@ -43,18 +43,18 @@ export const ContactSection = ({
                   <div className="icon-bg">
                     <Envelopeicon3 className="instance-node-2" />
                   </div>
-                  <div className="text-wrapper-3">hello@gmail.com</div>
+                  <div className="text-wrapper-3">izoma.info@gmail.com</div>
                 </div>
                 <div className="item-3">
                   <div className="icon-bg">
                     <Facebookicon3 className="instance-node-2" />
                   </div>
-                  <div className="text-wrapper-3">hello@gmail.com</div>
+                  <div className="text-wrapper-3">facebook.com/izoma.ge</div>
                 </div>
-                <div className="item-3">
+                {/* <div className="item-3">
                   <img className="icon-bg-2" alt="Icon bg" src={iconBg} />
                   <div className="text-wrapper-3">hello@gmail.com</div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
