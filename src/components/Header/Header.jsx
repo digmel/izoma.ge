@@ -38,7 +38,7 @@ export const Header = ({
 
   return (
     <>
-      <div className={`header is-mob-0-${isMob} ${className}`}>
+      <div className={`header is-mob-${isMob} ${className}`}>
         {!isMob && (
           <>
             <div className="logo-default-wrapper" onClick={reloadPage}>
@@ -87,7 +87,7 @@ export const Header = ({
 
       {isOpen && (
         <div
-          className="menu"
+          className="menu-12"
           style={{
             display: "flex",
             flex: 1,

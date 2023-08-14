@@ -82,7 +82,7 @@
   position: relative !important;
 }
 
-.header.is-mob-0-false {
+.header.is-mob-false {
   background-color: var(--white);
   padding: 12px 120px;
   width: 100%;
@@ -90,7 +90,7 @@
   position: fixed;
 }
 
-.header.is-mob-0-true {
+.header.is-mob-true {
   background-color: var(--gray-100);
   padding: 12px;
   width: 390px;
@@ -98,7 +98,7 @@
   position: fixed;
 }
 
-.menu {
+.menu-12 {
   background-color: #ffffff;
   border: 1px none;
   height: 838px;

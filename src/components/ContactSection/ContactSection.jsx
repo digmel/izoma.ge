@@ -76,13 +76,13 @@ export const ContactSection = ({
                 <div className="icon-bg-3">
                   <EnvelopeIcon />
                 </div>
-                <div className="text-wrapper-4">hello@gmail.com</div>
+                <div className="text-wrapper-4">izoma.info@gmail.com</div>
               </div>
               <div className="item-7">
                 <div className="icon-bg-3">
                   <Facebookicon2 className="instance-node-3" />
                 </div>
-                <div className="text-wrapper-4">hello@gmail.com</div>
+                <div className="text-wrapper-4">facebook.com/izoma.ge</div>
               </div>
               <div className="item-8">
                 <img
@@ -90,7 +90,7 @@ export const ContactSection = ({
                   alt="Icon bg"
                   src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/iconbg-1.svg"
                 />
-                <div className="text-wrapper-4">hello@gmail.com</div>
+                <div className="text-wrapper-4">+995 595 50 80 10</div>
               </div>
             </div>
             <ContactForm
