@@ -5,7 +5,6 @@
 .contact-section .contact-section-wrapper {
   background-color: #f1f5f9;
   height: 800px;
-
 }
 
 .contact-section .div-4 {
@@ -134,10 +133,13 @@
 }
 
 .contact-section .description-4 {
-  align-self: stretch;
-  height: 88px;
   min-width: 342px;
-  position: relative;
+  padding-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
 }
 
 .contact-section .item-5 {
@@ -145,7 +147,6 @@
   display: flex;
   gap: 8px;
   left: 0;
-  position: absolute;
   top: 0;
   width: fit-content;
 }
@@ -184,7 +185,6 @@
   display: flex;
   gap: 8px;
   left: 183px;
-  position: absolute;
   top: 0;
   width: fit-content;
 }
@@ -194,7 +194,6 @@
   display: flex;
   gap: 8px;
   left: 0;
-  position: absolute;
   top: 56px;
   width: fit-content;
 }

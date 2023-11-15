@@ -6,7 +6,6 @@ import { Facebookicon3 } from "../../icons/Facebookicon3";
 import { Phoneicon2 } from "../../icons/Phoneicon2";
 import { Phoneicon3 } from "../../icons/Phoneicon3";
 import { ContactForm } from "../ContactForm";
-import { EnvelopeIcon } from "../EnvelopeIcon";
 import "./style.css";
 
 export const ContactSection = ({
@@ -51,10 +50,6 @@ export const ContactSection = ({
                   </div>
                   <div className="text-wrapper-3">facebook.com/izoma.ge</div>
                 </div>
-                {/* <div className="item-3">
-                  <img className="icon-bg-2" alt="Icon bg" src={iconBg} />
-                  <div className="text-wrapper-3">hello@gmail.com</div>
-                </div> */}
               </div>
             </div>
           </div>
@@ -72,27 +67,22 @@ export const ContactSection = ({
                 </div>
                 <p className="text-wrapper-4">+995 595 50 80 10</p>
               </div>
+
               <div className="item-6">
                 <div className="icon-bg-3">
-                  <EnvelopeIcon />
+                  <Envelopeicon3 className="instance-node-3" />
                 </div>
                 <div className="text-wrapper-4">izoma.info@gmail.com</div>
               </div>
+
               <div className="item-7">
                 <div className="icon-bg-3">
                   <Facebookicon2 className="instance-node-3" />
                 </div>
                 <div className="text-wrapper-4">facebook.com/izoma.ge</div>
               </div>
-              <div className="item-8">
-                <img
-                  className="icon-bg-4"
-                  alt="Icon bg"
-                  src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/iconbg-1.svg"
-                />
-                <div className="text-wrapper-4">+995 595 50 80 10</div>
-              </div>
             </div>
+
             <ContactForm
               buttonButtonClassName="contact-form-6"
               className="contact-form-5"
