@@ -5,10 +5,10 @@ export const MapSection = ({ isMob }) => {
   const [loading, setLoading] = useState(true);
 
   return (
-    <SC.Wrapper id="map-section">
-      <SC.Title isMob>საკადასტრო კოდით ძებნა</SC.Title>
+    <SC.Wrapper id="map-section" $isMob={isMob}>
+      <SC.Title $isMob={isMob}>საკადასტრო კოდით ძებნა</SC.Title>
 
-      <SC.Subtitle isMob>
+      <SC.Subtitle $isMob={isMob}>
         ჩვენს რუკაზე ძებნა შესაძლებელია რეგიონის, ადგილმდებარეობისა და
         საკადასტრო კოდის მიხედვით.
       </SC.Subtitle>
@@ -24,8 +24,7 @@ export const MapSection = ({ isMob }) => {
         allowFullScreen=""
         loading="lazy"
         onLoad={() => setLoading(false)}
-        isMob
-        isLoading
+        $isMob={isMob}
       />
     </SC.Wrapper>
   );

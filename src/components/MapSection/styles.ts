@@ -5,14 +5,13 @@ const spin = keyframes`
   100% { transform: rotate(360deg); }
 `;
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div<{ $isMob: boolean }>`
   left: 0;
-  padding: 96px 120px;
-  gap: 96px;
-  height: 950px;
-  width: 100%;
+  padding: ${({ $isMob }) => ($isMob ? "48px 24px" : "120px 96px")};
+  width: ${({ $isMob }) => ($isMob ? "390px" : "100%")};
+  height: ${({ $isMob }) => ($isMob ? "800px" : "950px")};
 
-  display: "flex";
+  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -23,29 +22,27 @@ export const Wrapper = styled.div`
 export const Title = styled.h1<{ $isMob: boolean }>`
   color: var(--gray-800);
   font-family: "Noto Sans Georgian", Helvetica;
-  font-size: 32px;
+  font-size: ${({ $isMob }) => ($isMob ? "24px" : "32px")};
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 44.8px;
+  line-height: ${({ $isMob }) => ($isMob ? "33.6px" : "44.8px")};
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: ${({ $isMob }) => ($isMob ? "100%;" : "fit-content")};
 `;
 
 export const Subtitle = styled.h3<{ $isMob: boolean }>`
   color: var(--gray-800);
   flex: 1;
   font-family: "Noto Sans Georgian", Helvetica;
-  font-size: 16px;
+  font-size: ${({ $isMob }) => ($isMob ? "14px" : "16px")};
   font-weight: 400;
   letter-spacing: 0;
   line-height: 22.4px;
 
   margin-top: 16px;
   margin-bottom: 32px;
-
   position: relative;
-  white-space: nowrap;
 `;
 
 export const MapContainer = styled.iframe<{
@@ -74,8 +71,10 @@ export const Spinner = styled.div`
 export const SpinnerContainer = styled.div`
   display: flex;
   flex: 1;
-  height: 90%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  align-self: center;
+  height: 90%;
+  padding-top: 96px;
 `;
