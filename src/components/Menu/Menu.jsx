@@ -1,25 +1,21 @@
 import React, { useState } from "react";
-import { Button } from "../Button";
 import "./style.css";
 
 export const Menu = ({
-  homeClassName,
   text = "Home",
-  servicesClassName,
   text1 = "Services",
-  aboutClassName,
   text2 = "About",
-  newsClassName,
   text3 = "News",
+  text4 = "Map Search",
 }) => {
   const [activeSection, setActiveSection] = useState(null);
-  
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       window.scrollTo({
         top: section.offsetTop,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
     setActiveSection(sectionId);
@@ -27,19 +23,40 @@ export const Menu = ({
 
   return (
     <div className="menu">
-      <div className={`text-wrapper-2 ${homeClassName}  ${activeSection === "home" ? "bold" : ""}`} onClick={() => scrollToSection("home")}>
+      <a
+        className={`menu-item  ${activeSection === "home" ? "bold" : ""}`}
+        onClick={() => scrollToSection("home")}
+      >
         {text}
-      </div>
-      <div className={`text-wrapper-2 ${servicesClassName}  ${activeSection === "services" ? "bold" : ""}`} onClick={() => scrollToSection("services")}>
+      </a>
+
+      <div
+        className={`menu-item  ${activeSection === "services" ? "bold" : ""}`}
+        onClick={() => scrollToSection("services")}
+      >
         {text1}
       </div>
-      <div  className={`text-wrapper-2 ${aboutClassName}  ${activeSection === "about" ? "bold" : ""}`}  onClick={() => scrollToSection("about")}>
+
+      <div
+        className={`menu-item  ${activeSection === "about" ? "bold" : ""}`}
+        onClick={() => scrollToSection("about")}
+      >
         {text2}
       </div>
-      <div className={`text-wrapper-2 ${newsClassName}  ${activeSection === "news" ? "bold" : ""}`}  onClick={() => scrollToSection("news")}>
+      <div
+        className={`menu-item  ${activeSection === "news" ? "bold" : ""}`}
+        onClick={() => scrollToSection("news")}
+      >
         {text3}
       </div>
-      <Button className="button-instance" text="კონტაქტი" onClick={() => scrollToSection("contact")}  />
+      <div
+        className={`menu-item  ${
+          activeSection === "map-section" ? "bold" : ""
+        }`}
+        onClick={() => scrollToSection("map-section")}
+      >
+        {text4}
+      </div>
     </div>
   );
 };

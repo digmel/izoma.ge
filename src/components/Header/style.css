@@ -13,11 +13,6 @@
   position: relative;
 }
 
-.header .menu-instance {
-  font-size: 14px !important;
-  line-height: 19.6px !important;
-}
-
 .header .logo-wrapper {
   height: 32px;
   min-width: 157px;
@@ -361,4 +356,8 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+}
+
+.menu .button {
+  background-color: var(--gray-800) !important;
 }

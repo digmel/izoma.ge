@@ -6,6 +6,7 @@ import "./style.css";
 import { Phoneicon1 } from "../../icons/Phoneicon1";
 import { Facebookicon1 } from "../../icons/Facebookicon1";
 import { Envelopeicon3 } from "../../icons/Envelopeicon3";
+import { Button } from "../Button";
 
 export const Header = ({
   isMob,
@@ -49,14 +50,17 @@ export const Header = ({
               />
             </div>
             <Menu
-              aboutClassName="menu-instance"
-              homeClassName="menu-instance"
-              newsClassName="menu-instance"
-              servicesClassName="menu-instance"
               text="მთავარი"
               text1="სერვისები"
               text2="ჩვენ შესახებ"
               text3="ბლოგი"
+              text4="საკადასტრო რუკა"
+            />
+
+            <Button
+              className="button"
+              text="კონტაქტი"
+              onClick={() => scrollToSection("contact")}
             />
           </>
         )}
@@ -64,7 +68,10 @@ export const Header = ({
         {isMob && (
           <>
             <div className="logo-wrapper">
-              <div className="logo-default-instance-wrapper" onClick={reloadPage}>
+              <div
+                className="logo-default-instance-wrapper"
+                onClick={reloadPage}
+              >
                 <LogoDefault
                   className="logo-default-6"
                   key="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-5.svg"
