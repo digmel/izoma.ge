@@ -6,6 +6,7 @@ import { HeroSection } from "../../components/HeroSection";
 import { IsmobFalseWrapper } from "../../components/IsmobFalseWrapper";
 import { ServicesSection } from "../../components/ServicesSection";
 import { About } from "../../components/About";
+import { MapSection } from "../../components/MapSection";
 import { FAQSection } from "../../components/FAQ";
 import "./style.css";
 
@@ -22,10 +23,11 @@ export const HomePage = () => {
     <div className="home" id="home">
       <Header isMob={isMob} />
       <HeroSection isMob={isMob} />
-      <ServicesSection  isMob={isMob} />
-      <About  isMob={isMob} />
+      <ServicesSection isMob={isMob} />
+      <About isMob={isMob} />
+      <MapSection isMob={isMob} />
       <FAQSection isMob={isMob} />
-      <IsmobFalseWrapper  isMob={isMob} />
+      <IsmobFalseWrapper isMob={isMob} />
       <ContactSection isMob={isMob} />
       <Footer isMob={isMob} />
     </div>

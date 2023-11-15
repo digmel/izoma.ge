@@ -14,10 +14,3 @@ function App() {
 }
 
 export default App;
-
-{/* <HashRouter>
-<Routes>
-  <Route path={"/"} element={<HomePage />} />
-  <Route path={"/intro"} element={<IntroPage />} />
-</Routes>
-</HashRouter> */}
