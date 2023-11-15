@@ -87,7 +87,6 @@
 
 .header.is-mob-true {
   background-color: var(--gray-100);
-  padding: 12px;
   width: 390px;
   z-index: 10;
   position: fixed;
