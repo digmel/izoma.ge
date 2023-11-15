@@ -4,7 +4,7 @@
   justify-content: space-between;
   left: 0;
   padding: 96px 120px;
-  gap: 96px
+  gap: 96px;
 }
 
 .about .description-5 {
@@ -169,7 +169,6 @@
   margin-top: 64px;
 }
 
-
 .about-section .about-section {
   align-items: flex-start;
   display: flex;
@@ -233,6 +232,16 @@
   position: absolute;
   top: 182px;
   width: 201px;
+}
+
+.about-section .banner {
+  height: 170px;
+  left: 141px;
+  object-fit: cover;
+  position: absolute;
+  top: 182px;
+  width: 201px;
+  display: none;
 }
 
 .about-section .description {
