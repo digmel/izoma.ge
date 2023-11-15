@@ -1,25 +1,16 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { Arrowicon1 } from "../../icons/Arrowicon1";
-import { LogoDefault } from "../LogoDefault";
+import { Logo } from "../../icons/Logo";
 import "./style.css";
 
-export const Footer = ({
-  isMob,
-  logoDefaultKey = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-3.svg",
-  logoDefaultRing = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-4.svg",
-}) => {
+export const Footer = ({ isMob }) => {
   return (
     <div className={`footer is-mob-6-${isMob}`}>
       <div className="logo-2">
         {!isMob && (
           <>
-            <LogoDefault
-              className="logo-default-7"
-              key={logoDefaultKey}
-              name="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-3.svg"
-              ring={logoDefaultRing}
-            />
+            <Logo className="logo-default-7" monochrome />
             <div className="copyrights">
               <img
                 className="copyrights-icon"
@@ -73,12 +64,7 @@ export const Footer = ({
         {isMob && (
           <>
             <div className="logo-light">
-              <LogoDefault
-                className="logo-default-8"
-                key="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-2.svg"
-                name="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-2.svg"
-                ring="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-3.svg"
-              />
+              <Logo className="logo-default-8" monochrome />
             </div>
             <img
               className="line"

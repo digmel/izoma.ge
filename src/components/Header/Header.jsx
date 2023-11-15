@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Menuicon } from "../../icons/Menuicon";
-import { LogoDefault } from "../LogoDefault";
+import { Logo } from "../../icons/Logo";
 import { Menu } from "../Menu";
 import "./style.css";
 import { Phoneicon1 } from "../../icons/Phoneicon1";
@@ -8,13 +8,7 @@ import { Facebookicon1 } from "../../icons/Facebookicon1";
 import { Envelopeicon3 } from "../../icons/Envelopeicon3";
 import { Button } from "../Button";
 
-export const Header = ({
-  isMob,
-  className,
-  logoDefaultKey = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-6.svg",
-  logoDefaultName = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-6.svg",
-  logoDefaultRing = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring.svg",
-}) => {
+export const Header = ({ isMob, className }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const reloadPage = () => {
@@ -43,11 +37,7 @@ export const Header = ({
         {!isMob && (
           <>
             <div className="logo-default-wrapper" onClick={reloadPage}>
-              <LogoDefault
-                key={logoDefaultKey}
-                name={logoDefaultName}
-                ring={logoDefaultRing}
-              />
+              <Logo />
             </div>
             <Menu
               text="მთავარი"
@@ -72,17 +62,7 @@ export const Header = ({
                 className="logo-default-instance-wrapper"
                 onClick={reloadPage}
               >
-                <LogoDefault
-                  className="logo-default-6"
-                  key="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/key-5.svg"
-                  keyClassName="logo-default-4"
-                  name="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/name-5.svg"
-                  nameClassName="logo-default-5"
-                  overlapClassName="logo-default-instance"
-                  overlapGroupClassName="logo-default-2"
-                  ring="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/ring-6.svg"
-                  ringClassName="logo-default-3"
-                />
+                <Logo />
               </div>
             </div>
             <div className="menu-icon-wrapper" onClick={toggleMenu}>

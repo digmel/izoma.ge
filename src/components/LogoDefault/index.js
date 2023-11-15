@@ -1,1 +1,0 @@
-export { LogoDefault } from "./LogoDefault";
