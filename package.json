@@ -28,7 +28,8 @@
     "react-svg": "^16.1.13",
     "redux-first-history": "^5.1.1",
     "redux-saga": "^1.2.3",
-    "short-uuid": "^4.2.2"
+    "short-uuid": "^4.2.2",
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",

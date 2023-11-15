@@ -1,8 +1,8 @@
-import { About } from ".";
+import { MapSection } from ".";
 
 export default {
-  title: "Components/About",
-  component: About,
+  title: "Components/MapSection",
+  component: MapSection,
 };
 
 export const Default = {
