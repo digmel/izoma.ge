@@ -1,9 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store, history } from "./redux/store";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { store } from "./redux/store";
 import { HomePage } from "./pages/Home";
-import IntroPage from "./pages/Intro/IntroPage";
 
 function App() {
   return (

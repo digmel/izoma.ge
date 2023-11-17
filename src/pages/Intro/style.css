@@ -1,9 +1,0 @@
-.intro-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    flex-direction: column;
-    height: 100vh;
-    gap: 16px;
-}
