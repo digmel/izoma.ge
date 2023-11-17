@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ka">
+  <head>
+    <meta charset="utf-8" />
+    <title>გვერდი ვერ მოიძებნა</title>
+    <style>
+      body {
+        text-align: center;
+        padding: 50px;
+        font-family: "Arial", sans-serif;
+      }
 
-<head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <script>
-        // Redirect to index.html for client-side routing to work
-        window.location.href = '/index.html';
-    </script>
-</head>
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
 
-<body>
-    Page Not Found
-</body>
+      a {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #4caf50;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      }
 
+      a:hover {
+        background-color: #45a049;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>გვერდი ვერ მოიძებნა</h1>
+    <p>გთხოვთ, დაბრუნდით მთავარ გვერდზე</p>
+    <img src="/assets/404.png" alt="404 - Page Not Found" />
+    <br />
+    <a href="/">მთავარი გვერდი</a>
+  </body>
 </html>
