@@ -31,7 +31,7 @@ export const Title = styled.h1<{ $isMob: boolean }>`
   width: ${({ $isMob }) => ($isMob ? "100%;" : "fit-content")};
 `;
 
-export const Subtitle = styled.h3<{ $isMob: boolean }>`
+export const Subtitle = styled.h2<{ $isMob: boolean }>`
   color: var(--gray-800);
   flex: 1;
   font-family: "Noto Sans Georgian", Helvetica;

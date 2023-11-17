@@ -25,6 +25,7 @@ export const MapSection = ({ isMob }) => {
         loading="lazy"
         onLoad={() => setLoading(false)}
         $isMob={isMob}
+        title="საკადასტრო რუკა"
       />
     </SC.Wrapper>
   );
