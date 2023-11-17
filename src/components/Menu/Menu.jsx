@@ -21,42 +21,55 @@ export const Menu = ({
     setActiveSection(sectionId);
   };
 
+  const handleMenuClick = (e, sectionId) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    scrollToSection(sectionId);
+  };
+
   return (
     <div className="menu">
+      {/* Convert divs to anchor tags and use href */}
       <a
+        href="#home"
         className={`menu-item  ${activeSection === "home" ? "bold" : ""}`}
-        onClick={() => scrollToSection("home")}
+        onClick={(e) => handleMenuClick(e, "home")}
       >
         {text}
       </a>
 
-      <div
+      <a
+        href="#services"
         className={`menu-item  ${activeSection === "services" ? "bold" : ""}`}
-        onClick={() => scrollToSection("services")}
+        onClick={(e) => handleMenuClick(e, "services")}
       >
         {text1}
-      </div>
+      </a>
 
-      <div
+      <a
+        href="#about"
         className={`menu-item  ${activeSection === "about" ? "bold" : ""}`}
-        onClick={() => scrollToSection("about")}
+        onClick={(e) => handleMenuClick(e, "about")}
       >
         {text2}
-      </div>
-      <div
+      </a>
+
+      <a
+        href="#news"
         className={`menu-item  ${activeSection === "news" ? "bold" : ""}`}
-        onClick={() => scrollToSection("news")}
+        onClick={(e) => handleMenuClick(e, "news")}
       >
         {text3}
-      </div>
-      <div
+      </a>
+
+      <a
+        href="#map-section"
         className={`menu-item  ${
           activeSection === "map-section" ? "bold" : ""
         }`}
-        onClick={() => scrollToSection("map-section")}
+        onClick={(e) => handleMenuClick(e, "map-section")}
       >
         {text4}
-      </div>
+      </a>
     </div>
   );
 };

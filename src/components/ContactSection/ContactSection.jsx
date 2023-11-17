@@ -8,10 +8,7 @@ import { Phoneicon3 } from "../../icons/Phoneicon3";
 import { ContactForm } from "../ContactForm";
 import "./style.css";
 
-export const ContactSection = ({
-  isMob,
-  iconBg = "https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/iconbg-2.svg",
-}) => {
+export const ContactSection = ({ isMob }) => {
   return (
     <div id="contact" className={`contact-section is-mob-5-${isMob}`}>
       {!isMob && (
@@ -20,7 +17,6 @@ export const ContactSection = ({
             <div className="item-2">კონტაქტი</div>
             <div className="contact">
               <ContactForm
-                // buttonButtonClassName="contact-form-3"
                 className="contact-form-instance"
                 inputLabelClassName="contact-form-2"
                 inputLabelClassNameOverride="contact-form-2"
@@ -44,12 +40,12 @@ export const ContactSection = ({
                   </div>
                   <div className="text-wrapper-3">izoma.info@gmail.com</div>
                 </div>
-                <div className="item-3">
+                <a className="item-3" href="https://www.facebook.com/aizoma">
                   <div className="icon-bg">
                     <Facebookicon3 className="instance-node-2" />
                   </div>
                   <div className="text-wrapper-3">facebook.com/izoma.ge</div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -75,12 +71,12 @@ export const ContactSection = ({
                 <div className="text-wrapper-4">izoma.info@gmail.com</div>
               </div>
 
-              <div className="item-7">
+              <a className="item-7" href="https://www.facebook.com/aizoma">
                 <div className="icon-bg-3">
                   <Facebookicon2 className="instance-node-3" />
                 </div>
-                <div className="text-wrapper-4">facebook.com/izoma.ge</div>
-              </div>
+                <a className="text-wrapper-4">facebook.com/izoma.ge</a>
+              </a>
             </div>
 
             <ContactForm

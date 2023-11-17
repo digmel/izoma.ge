@@ -1,8 +1,3 @@
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/
-
 import PropTypes from "prop-types";
 import React from "react";
 import { Checkicon18 } from "../../icons/Checkicon18";
@@ -11,7 +6,10 @@ import "./style.css";
 
 export const ServicesSection = ({ isMob, className }) => {
   return (
-    <div id="services" className={`services-section is-mob-1-${isMob} ${className}`}>
+    <div
+      id="services"
+      className={`services-section is-mob-1-${isMob} ${className}`}
+    >
       {!isMob && (
         <div className="services">
           <div className="overlap-group-2">
@@ -74,89 +72,87 @@ export const ServicesSection = ({ isMob, className }) => {
                 src="https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/image-8.png"
               />
               <div className="description">
-                <div className="title">სერვისები</div>
+                <h1 className="title">სერვისები</h1>
                 <div className="div-3">
-                  <p className="title-2">
+                  <h2 className="title-2">
                     აიზომა გთავაზობთ სრულ გეოდეზიურ მომსახურებას და ყველანაირი
                     ტიპის აზომვითი ნახაზების მომზადებას:
-                  </p>
+                  </h2>
                   <div className="list">
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-8">
+                      <h1 className="element-8">
                         ნებისმიერი ტიპის უძრავი ქონების ფართის აზომვა
-                      </p>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">შიდა აზომვითი ნახაზი</div>
+                      <h1 className="element-8">შიდა აზომვითი ნახაზი</h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">
+                      <h1 className="element-8">
                         შიდა აზომვითი ნახაზი დიზაინერისთვის
-                      </div>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">
+                      <h1 className="element-8">
                         მიწის ნაკვეთის საკადასტრო ნახაზი
-                      </div>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">
-                        ტოპო-გეოდეზიური დაგეგმარება
-                      </div>
+                      <h1 className="element-8">ტოპო-გეოდეზიური დაგეგმარება</h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-8">
+                      <h1 className="element-8">
                         მიწის ნაკვეთის დაკვალვა (საზღვრების დადგენა)
-                      </p>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-8">
+                      <h1 className="element-8">
                         აგრო კულტურების დაგეგმარება (ნერგების დაკვალვა/დათვლა)
-                      </p>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <p className="element-9">
+                      <h1 className="element-9">
                         ავტოფარეხის, სხვენის, სარდაფის, დამხმარე ფართის
                         რეგისტრაცია
-                      </p>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">
+                      <h1 className="element-8">
                         კორპუსის წითელი ხაზების დადგენა-ცვლილება
-                      </div>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">
+                      <h1 className="element-8">
                         უკანონო შენობა-ნაგებობების ლეგალიზაცია
-                      </div>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-8">
+                      <h1 className="element-8">
                         გამიჯვნა-გაერთიანების სქემატური ნახაზი
-                      </div>
+                      </h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-10">ორთოფოტო</div>
+                      <h1 className="element-10">ორთოფოტო</h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-10">სიტუაციური ნახაზი</div>
+                      <h1 className="element-10">სიტუაციური ნახაზი</h1>
                     </div>
                     <div className="item">
                       <Checkicon41 className="check-icon" />
-                      <div className="element-10">ფოტომონტაჟი</div>
+                      <h1 className="element-10">ფოტომონტაჟი</h1>
                     </div>
                   </div>
                 </div>

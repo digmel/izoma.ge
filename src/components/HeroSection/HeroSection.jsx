@@ -36,15 +36,15 @@ export const HeroSection = ({
 
           <div className="hero-desciption">
             <div className="hero-text">
-              <p className="p">
+              <h1 className="p">
                 აზომვით სამუშაოები მთელი საქართველოს მასშტაბით
-              </p>
-              <p className="element-4">
+              </h1>
+              <h2 className="element-4">
                 აზომვა სრულდება მაღალი სიზუსტის თანამედროვე აპარატურით, ნახაზები
                 მზადდება საჯარო რეესტრის #388 დადგენილების მიხედვით, რომელიც
                 გამოგადგებათ საჯარო რეესტრში ან სხვა ნებისმიერ ორგანოში
                 წარსადგენად.
-              </p>
+              </h2>
             </div>
             <Statistics
               className="statistics-instance"
@@ -72,15 +72,15 @@ export const HeroSection = ({
       {isMob && (
         <div className="hero-desciption-2">
           <div className="hero-text-2">
-            <p className="element-5">
+            <h1 className="element-5">
               აზომვით სამუშაოები მთელი საქართველოს მასშტაბით
-            </p>
-            <p className="element-6">
+            </h1>
+            <h2 className="element-6">
               აზომვა სრულდება მაღალი სიზუსტის თანამედროვე აპარატურით, ნახაზები
               მზადდება საჯარო რეესტრის #388 დადგენილების მიხედვით, რომელიც
               გამოგადგებათ საჯარო რეესტრში ან სხვა ნებისმიერ ორგანოში
               წარსადგენად.
-            </p>
+            </h2>
           </div>
           <Statistics
             className="statistics-8"

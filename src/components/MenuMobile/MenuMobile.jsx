@@ -194,36 +194,49 @@ const StyledBox = styled.div`
 `;
 
 export const MenuMobile = ({ scrollToSection }) => {
+  const handleMenuClick = (e, sectionId) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    scrollToSection(sectionId);
+  };
+
   return (
     <StyledBox>
       <div className="overlap-group">
         <div
           className="item"
-          onClick={() => {
-            scrollToSection("home");
-          }}
+          href="#home"
+          onClick={(e) => handleMenuClick(e, "home")}
         >
-          <div className="label">მთავარი</div>
+          <span className="label">მთავარი</span>
         </div>
         <div
           className="label-wrapper"
-          onClick={() => scrollToSection("services")}
+          href="#services"
+          onClick={(e) => handleMenuClick(e, "services")}
         >
-          <div className="text-wrapper">სერვისები</div>
-        </div>
-        <div className="div-wrapper" onClick={() => scrollToSection("about")}>
-          <div className="text-wrapper">ჩვენ შესახებ</div>
+          <span className="text-wrapper">სერვისები</span>
         </div>
         <div
           className="div-wrapper"
-          onClick={() => scrollToSection("map-section")}
+          href="#about"
+          onClick={(e) => handleMenuClick(e, "about")}
         >
-          <div className="text-wrapper">საკადასტრო რუკა</div>
+          <span className="text-wrapper">ჩვენ შესახებ</span>
         </div>
-        <div className="div" onClick={() => scrollToSection("news")}>
+        <div
+          className="div-wrapper"
+          href="#map-section"
+          onClick={(e) => handleMenuClick(e, "map-section")}
+        >
+          <span className="text-wrapper">საკადასტრო რუკა</span>
+        </div>
+        <div
+          className="div"
+          href="#news"
+          onClick={(e) => handleMenuClick(e, "news")}
+        >
           <div className="text-wrapper">ბლოგი</div>
         </div>
-        setIsOpen(false);
         <div className="item-2">
           <div className="text-wrapper">კონტაქტი</div>
           <div className="contact-details">
@@ -233,7 +246,12 @@ export const MenuMobile = ({ scrollToSection }) => {
             </div>
             <div className="item-3">
               <Facebookicon1 className="icon-instance-node" color="#2D84FF" />
-              <div className="text-wrapper-2">facebook.com/aizoma</div>
+              <a
+                className="text-wrapper-2"
+                href="https://www.facebook.com/aizoma"
+              >
+                facebook.com/aizoma
+              </a>
             </div>
             <div className="item-3">
               <Envelopeicon3 className="icon-instance-node" />

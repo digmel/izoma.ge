@@ -19,8 +19,8 @@ export const About = ({ isMob }) => {
       {!isMob && (
         <div className="about">
           <div className="description-5">
-            <div className="text-wrapper-5">ჩვენ შესახებ</div>
-            <div className="flex-container">
+            <h1 className="text-wrapper-5">ჩვენ შესახებ</h1>
+            <article className="flex-container">
               <div className="text">
                 <span className="span">
                   &#34;აიზომა&#34; დაკომპლექტებულია მაღალი პასუხისმგებლობის და
@@ -28,21 +28,21 @@ export const About = ({ isMob }) => {
                 </span>
               </div>
               <div className="text">
-                <span className="span">
+                <h2 className="span">
                   ჩვენი გუნდი გაგიწევთ უფასო კონსულტაციას როგორც ტექნიკური ასევე
                   სამართლებლივი კუთხით. &#34;აიზომა&#34; საჯარო რეესტრის
                   ავტორიზებული მომხმარებელია, რაც იმას ნიშნავს რომ ჩვენი
                   ოფისიდანვე მოხდება საჯარო რეესტრში განაცხადის შეტანა
                   სარეგისტრაციოდ, რაც თავიდან აგაცილებთ იუსტიციის სახლში რიგში
                   დგომას.
-                </span>
+                </h2>
               </div>
-            </div>
+            </article>
             <div className="work-hours">
               <Clockicon2 className="clock-icon" color="#6B7280" />
-              <p className="text-wrapper-6">
+              <h3 className="text-wrapper-6">
                 ვმუშაობთ ყოველ დღე 10:00-დან 18:00-მდე
-              </p>
+              </h3>
             </div>
             <Button onClick={() => scrollToSection("contact")} />
           </div>
@@ -107,27 +107,27 @@ export const About = ({ isMob }) => {
             </div>
             <div className="description">
               <h1 className="text-wrapper">ჩვენ შესახებ</h1>
-              <div className="flex-container">
+              <article className="flex-container">
                 <div className="text">
-                  <span className="span">
+                  <h2 className="span">
                     &#34;აიზომა&#34; დაკომპლექტებულია მაღალი პასუხისმგებლობის და
                     საქმეზე ორიენტირებული გეოდეზისტების ჯგუფით. <br />
-                  </span>
+                  </h2>
                 </div>
                 <div className="text">
-                  <span className="span">
+                  <h2 className="span">
                     ჩვენი გუნდი გაგიწევთ უფასო კონსულტაციას როგორც ტექნიკური
                     ასევე სამართლებლივი კუთხით. &#34;აიზომა&#34; საჯარო რეესტრის
                     ავტორიზებული მომხმარებელია, რაც იმას ნიშნავს რომ ჩვენი
                     ოფისიდანვე მოხდება საჯარო რეესტრში განაცხადის შეტანა
                     სარეგისტრაციოდ, რაც თავიდან აგაცილებთ იუსტიციის სახლში რიგში
                     დგომას.
-                  </span>
+                  </h2>
                 </div>
-              </div>
+              </article>
               <div className="work-hours">
                 <Clockicon2 className="clock-icon" color="#6B7280" />
-                <p className="p">ვმუშაობთ ყოველ დღე 10:00-დან 18:00-მდე</p>
+                <h3 className="p">ვმუშაობთ ყოველ დღე 10:00-დან 18:00-მდე</h3>
               </div>
               <Button onClick={() => scrollToSection("contact")} />
             </div>
