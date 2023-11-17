@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
+
+# Location of the XML sitemap:
+Sitemap: https://www.izoma.ge/sitemap.xml
+
+# For all web crawlers:
 User-agent: *
-Disallow:
+Disallow: /private/
+Allow: /
