@@ -356,7 +356,3 @@
   white-space: nowrap;
   width: fit-content;
 }
-
-.menu .button {
-  background-color: var(--gray-800) !important;
-}

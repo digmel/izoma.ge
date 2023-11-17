@@ -20,7 +20,7 @@ export const ContactSection = ({
             <div className="item-2">კონტაქტი</div>
             <div className="contact">
               <ContactForm
-                buttonButtonClassName="contact-form-3"
+                // buttonButtonClassName="contact-form-3"
                 className="contact-form-instance"
                 inputLabelClassName="contact-form-2"
                 inputLabelClassNameOverride="contact-form-2"
@@ -84,7 +84,6 @@ export const ContactSection = ({
             </div>
 
             <ContactForm
-              buttonButtonClassName="contact-form-6"
               className="contact-form-5"
               inputLabelClassName="contact-form-2"
               inputLabelClassNameOverride="contact-form-2"

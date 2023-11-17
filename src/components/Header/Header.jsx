@@ -47,7 +47,6 @@ export const Header = ({ isMob, className }) => {
             />
 
             <Button
-              className="button"
               text="კონტაქტი"
               onClick={() => scrollToSection("contact")}
             />

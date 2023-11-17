@@ -18,8 +18,8 @@ export const FAQSection = ({ isMob }) => {
 
   return (
     <>
-    {!isMob && (
-      <div className="wrapper">
+      {!isMob && (
+        <div className="wrapper">
           <div className="text-wrapper-7">ხშირად დასმული კითხვები</div>
           <div className="faq">
             <div className="overlap-group-3">
@@ -55,8 +55,7 @@ export const FAQSection = ({ isMob }) => {
               ))}
             </div>
           </div>
-          </div>
-     
+        </div>
       )}
 
       {isMob && (
@@ -97,11 +96,10 @@ export const FAQSection = ({ isMob }) => {
           </div>
 
           <div className="button-wrapper">
-            <Button className="button-instance" text="იხილე მეტი" />
+            <Button text="იხილე მეტი" />
           </div>
         </div>
       )}
-   
-  </>
+    </>
   );
 };
