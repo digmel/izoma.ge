@@ -14,7 +14,7 @@ export const HeroSection = ({
       {!isMob && (
         <>
           <div className="image">
-            <motion.div
+            {/* <motion.div
               initial={{ zoom: 0.95 }} // Initial scale (zoomed out)
               animate={{ zoom: 1.1 }} // Final scale (zoomed in)
               transition={{
@@ -31,7 +31,19 @@ export const HeroSection = ({
                 objectFit: "cover",
                 position: "relative",
               }}
-            />
+            /> */}
+            <div
+              style={{
+                height: "800px",
+                backgroundImage:
+                  "url(https://generation-sessions.s3.amazonaws.com/5dfcc5d69cc66bba85ef251c08b40128/img/image-7.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                willChange: "transform",
+                objectFit: "cover",
+                position: "relative",
+              }}
+            ></div>
           </div>
 
           <div className="hero-desciption">
