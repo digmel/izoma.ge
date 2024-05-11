@@ -1,13 +1,12 @@
 import React from "react";
-import { Provider } from "react-redux";
-import { store } from "./redux/store";
 import { HomePage } from "./pages/Home";
+import { ControlX, Page } from "@etlyn/control-x";
 
 function App() {
   return (
-    <Provider store={store}>
-      <HomePage />
-    </Provider>
+    <ControlX>
+      <Page route="/" component={<HomePage />} />
+    </ControlX>
   );
 }
 

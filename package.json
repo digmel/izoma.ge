@@ -4,12 +4,18 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "storybook": "storybook dev -p 6006"
+    "storybook": "storybook dev -p 6006",
+    "purge": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
   },
   "dependencies": {
+    "@etlyn/control-x": "latest",
+    "@mantine/core": "^7.4.2",
+    "@mantine/tiptap": "^7.4.2",
+    "@mantine/carousel": "^7.6.1",
+    "@mantine/dropzone": "^7.4.2",
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
