@@ -248,14 +248,14 @@ export const MenuMobile = ({ scrollToSection }) => {
               <Facebookicon1 className="icon-instance-node" color="#2D84FF" />
               <a
                 className="text-wrapper-2"
-                href="https://www.facebook.com/aizoma"
+                href="https://www.facebook.com/iZoma.Ge/"
               >
-                facebook.com/aizoma
+                facebook.com/iZoma.Ge
               </a>
             </div>
             <div className="item-3">
               <Envelopeicon3 className="icon-instance-node" />
-              <div className="text-wrapper-2">info@example.com</div>
+              <div className="text-wrapper-2">izoma.info@gmail.com</div>
             </div>
           </div>
         </div>

@@ -44,7 +44,7 @@ export const ContactSection = ({ isMob }) => {
                   <div className="icon-bg">
                     <Facebookicon3 className="instance-node-2" />
                   </div>
-                  <div className="text-wrapper-3">facebook.com/izoma.ge</div>
+                  <div className="text-wrapper-3">facebook.com/iZoma.Ge</div>
                 </a>
               </div>
             </div>
@@ -71,11 +71,11 @@ export const ContactSection = ({ isMob }) => {
                 <div className="text-wrapper-4">izoma.info@gmail.com</div>
               </div>
 
-              <a className="item-7" href="https://www.facebook.com/aizoma">
+              <a className="item-7" href="https://www.facebook.com/iZoma.Ge/">
                 <div className="icon-bg-3">
                   <Facebookicon2 className="instance-node-3" />
                 </div>
-                <a className="text-wrapper-4">facebook.com/izoma.ge</a>
+                <a className="text-wrapper-4">facebook.com/iZoma.Ge</a>
               </a>
             </div>
 
