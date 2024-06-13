@@ -5,8 +5,10 @@ import { Menu } from "../Menu";
 import "./style.css";
 import { Button } from "../Button";
 import { MenuMobile } from "../MenuMobile";
+import { useNavigate } from "react-router";
 
 export const Header = ({ isMob, className }) => {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
   const reloadPage = () => {

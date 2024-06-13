@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import { useNavigate } from "react-router";
 
 export const Menu = ({
   text = "Home",
@@ -9,6 +10,7 @@ export const Menu = ({
   text4 = "Map Search",
 }) => {
   const [activeSection, setActiveSection] = useState(null);
+  const navigate = useNavigate();
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -24,11 +26,17 @@ export const Menu = ({
   const handleMenuClick = (e, sectionId) => {
     e.preventDefault(); // Prevent default anchor behavior
     scrollToSection(sectionId);
+
+    if (sectionId === "news") {
+      navigate(`/blogs`);
+    } else {
+      navigate(`/`);
+      scrollToSection(sectionId);
+    }
   };
 
   return (
     <div className="menu">
-      {/* Convert divs to anchor tags and use href */}
       <a
         href="#home"
         className={`menu-item  ${activeSection === "home" ? "bold" : ""}`}
